@@ -3,6 +3,8 @@
 function theme_functions() {
     
     add_theme_support( 'title-tag' );
+
+    add_theme_support('custom-logo');
     
 }
 
@@ -15,4 +17,19 @@ wp_enqueue_script('script', get_template_directory_uri() . '/JS/main.js',NULL, m
 }
 
 add_action('wp_enqueue_scripts', 'add_scripts');
+
+
+function theme_menus(){
+
+    $locations = array(
+        'primary' => 'Main Pages Menu in Header',
+        'social' => 'Social Media Links Menu in Sidebar'
+    );
+    register_nav_menus($locations);
+
+}
+
+add_action('init', 'theme_menus');
+
+
 ?>
