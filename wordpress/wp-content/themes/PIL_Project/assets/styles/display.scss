@@ -1,5 +1,27 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+=======
+:root{
+    --bg-color: #171717;
+    --font-color-main : white;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    body{
+        background-color: var(--bg-color);
+        color: var(--font-color-main);
+        main{
+            @import './layout/sidebar';
+        }
+
+    }
+}
+>>>>>>> d93ca00a345e68e7b22306acd763d45c5fec92ee
