@@ -1,7 +1,67 @@
+:root {
+  --bg-color: #171717;
+  --font-color-main: white;
+}
+
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+* body {
+  background-color: var(--bg-color);
+  color: var(--font-color-main);
+}
+
+* body main aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 96vh;
+  width: 7.625vw;
+  border: 1px solid black;
+  border-color: transparent;
+  border-right-color: rgba(255, 255, 255, 0.2);
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+* body main aside nav {
+  margin-bottom: 25px;
+}
+
+* body main aside nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  font-size: 1rem;
+  font-family: 'II Vorkurs';
+}
+
+* body main aside nav ul li {
+  padding: 25px 50px;
+}
+
+* body main aside nav ul li a {
+  color: var(--font-color-main);
+  text-decoration: none;
 }
 /*# sourceMappingURL=display.css.map */

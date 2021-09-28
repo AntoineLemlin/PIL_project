@@ -1,3 +1,6 @@
 <?php get_header(); ?>
-<h1>Accueil</h1>
+<main>
+<?php get_template_part('./template_parts/sidebar'); ?>
+
+</main>
 <?php get_footer(); ?>
