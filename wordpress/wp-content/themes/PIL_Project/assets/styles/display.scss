@@ -1,5 +1,38 @@
+:root{
+    --bg-color: #171717;
+}
+
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+
+    body{
+        background-color: var(--bg-color);
+        main{
+            aside{
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+                    min-height: 96vh;
+                    width: 7.625vw;
+                    border: 1px solid black;
+                    border-color: transparent;
+                    border-right-color: grey;
+                    border-bottom-color: grey;
+                nav{
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-end;
+                        align-items: center;
+                        list-style: none;
+                        li{
+                            padding: 35px 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
