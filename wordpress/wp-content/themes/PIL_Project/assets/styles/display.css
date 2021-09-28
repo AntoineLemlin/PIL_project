@@ -64,4 +64,14 @@
   color: var(--font-color-main);
   text-decoration: none;
 }
+
+* body footer .footer {
+  color: #ffffff;
+  font-family: "II Vorkurs";
+}
+
+* body footer .footer .titleFooter {
+  font-size: 20px;
+  width: 110px;
+}
 /*# sourceMappingURL=display.css.map */

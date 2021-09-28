@@ -8,8 +8,6 @@ function theme_functions()
     add_theme_support('menus');
 }
 
-add_action('after_setup_theme', 'theme_functions');
-
 if (function_exists('acf_add_options_page')) {
 
     acf_add_options_page(array(
@@ -32,9 +30,6 @@ if (function_exists('acf_add_options_page')) {
         'parent_slug'    => 'theme-general-settings',
     ));
 }
-
-
-add_action('wp_enqueue_scripts', 'add_scripts');
 ?>
 <?php if (function_exists('acf_add_options_page')) {
 
@@ -65,12 +60,8 @@ function add_scripts()
     wp_enqueue_script('script', get_template_directory_uri() . '/JS/main.js', NULL, microtime(), true);
 }
 
-add_action('wp_enqueue_scripts', 'add_scripts');
-
-
 function theme_menus()
 {
-
     $locations = array(
         'primary' => 'Main Pages Menu in Header',
         'social' => 'Social Media Links Menu in Sidebar'
@@ -79,6 +70,7 @@ function theme_menus()
 }
 
 add_action('init', 'theme_menus');
-
+add_action('after_setup_theme', 'theme_functions');
+add_action('wp_enqueue_scripts', 'add_scripts');
 
 ?>
