@@ -1,5 +1,6 @@
 :root {
   --bg-color: #171717;
+  --font-color-main: white;
 }
 
 * {
@@ -11,6 +12,7 @@
 
 * body {
   background-color: var(--bg-color);
+  color: var(--font-color-main);
 }
 
 * body main aside {
@@ -27,8 +29,12 @@
   width: 7.625vw;
   border: 1px solid black;
   border-color: transparent;
-  border-right-color: grey;
-  border-bottom-color: grey;
+  border-right-color: rgba(255, 255, 255, 0.2);
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+* body main aside nav {
+  margin-bottom: 25px;
 }
 
 * body main aside nav ul {
@@ -46,9 +52,16 @@
       -ms-flex-align: center;
           align-items: center;
   list-style: none;
+  font-size: 1rem;
+  font-family: 'II Vorkurs';
 }
 
 * body main aside nav ul li {
-  padding: 35px 50px;
+  padding: 25px 50px;
+}
+
+* body main aside nav ul li a {
+  color: var(--font-color-main);
+  text-decoration: none;
 }
 /*# sourceMappingURL=display.css.map */

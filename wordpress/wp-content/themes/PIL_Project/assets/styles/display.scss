@@ -1,14 +1,16 @@
 :root{
     --bg-color: #171717;
+    --font-color-main : white;
 }
 
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-
+    
     body{
         background-color: var(--bg-color);
+        color: var(--font-color-main);
         main{
             aside{
                     display: flex;
@@ -18,17 +20,25 @@
                     width: 7.625vw;
                     border: 1px solid black;
                     border-color: transparent;
-                    border-right-color: grey;
-                    border-bottom-color: grey;
+                    border-right-color: rgba($color:white, $alpha: 0.2);
+                    border-bottom-color: rgba($color:white, $alpha: 0.2);
                 nav{
+                    margin-bottom: 25px;
                     ul{
                         display: flex;
                         flex-direction: column;
                         justify-content: flex-end;
                         align-items: center;
                         list-style: none;
+                        font-size: 1rem;
+                        font-family: 'II Vorkurs';
                         li{
-                            padding: 35px 50px;
+                            padding: 25px 50px;
+
+                            a{
+                                color: var(--font-color-main);
+                                text-decoration: none;
+                            }
                         }
                     }
                 }
