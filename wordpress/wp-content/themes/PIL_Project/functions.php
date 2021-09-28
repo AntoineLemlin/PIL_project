@@ -3,7 +3,6 @@
 function theme_functions() {
     
     add_theme_support( 'title-tag' );
-
     add_theme_support('custom-logo');
     add_theme_support('menus');
     
@@ -32,13 +31,6 @@ if( function_exists('acf_add_options_page') ) {
 		'menu_title'	=> 'Footer',
 		'parent_slug'	=> 'theme-general-settings',
 	));
-
-    acf_add_options_sub_page(array(
-		'page_title' 	=> 'Socials Medias',
-		'menu_title'	=> 'Sidebar',
-		'parent_slug'	=> 'theme-general-settings',
-	));
-	
 }
 
 function add_scripts(){

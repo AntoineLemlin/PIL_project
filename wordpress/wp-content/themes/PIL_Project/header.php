@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./wp-content/themes/PIL_Project/assets/images/logo.png">
-    
+
     <?php wp_head(); ?>
 </head>
 <body>
+
+<header>
     <nav class="navbar navbar-expand-lg navbar-dark" >
            
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
