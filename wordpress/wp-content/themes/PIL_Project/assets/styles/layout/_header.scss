@@ -1,0 +1,19 @@
+header{
+    border-bottom-color: rgba($color:white, $alpha: 0.2);
+}
+
+.navbar-toggler-icon{
+    width:7.625vw;
+    height:7.625vh;
+}
+
+
+.menu-item{
+    color: var(--font-color-main);
+    text-decoration: none;
+}
+
+.current-menu-item{
+    color: var(--font-color-main);
+    text-decoration: none;
+}
