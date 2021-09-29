@@ -25,16 +25,17 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 96vh;
-  width: 7.625vw;
+  min-height: 192vh;
+  width: 6.615vw;
   border: 1px solid black;
   border-color: transparent;
   border-right-color: rgba(255, 255, 255, 0.2);
   border-bottom-color: rgba(255, 255, 255, 0.2);
+  float: left;
 }
 
 * body main aside nav {
-  margin-bottom: 25px;
+  padding-bottom: 3.906vw;
 }
 
 * body main aside nav ul {
@@ -52,7 +53,7 @@
       -ms-flex-align: center;
           align-items: center;
   list-style: none;
-  font-size: 1rem;
+  font-size: 1.042vw;
   font-family: 'II Vorkurs';
 }
 
@@ -63,5 +64,33 @@
 * body main aside nav ul li a {
   color: var(--font-color-main);
   text-decoration: none;
+}
+
+* body main #section-intro {
+  margin-left: 13.646vw;
+}
+
+* body main #section-intro h1 {
+  padding-top: 13.880vw;
+  font-size: clamp(2.5vw, 4.68vw, 90px);
+  font-family: 'II Vorkurs';
+  max-width: 45vw;
+  font-weight: bold;
+  letter-spacing: -0.178vw;
+  line-break: 4.688vw;
+}
+
+* body main #section-intro #front-page-video {
+  width: 85.3vw;
+}
+
+* body main #section-intro .arrow {
+  text-align: right;
+  margin-right: 8.75vw;
+  padding: 1.875vw;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 223px;
+  height: 223px;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=display.css.map */

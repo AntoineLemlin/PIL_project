@@ -2,21 +2,22 @@ aside{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    min-height: 96vh;
-    width: 7.625vw;
+    min-height: 192vh;
+    width: 6.615vw;
     border: 1px solid black;
     border-color: transparent;
     border-right-color: rgba($color:white, $alpha: 0.2);
     border-bottom-color: rgba($color:white, $alpha: 0.2);
+    float:left;
 nav{
-    margin-bottom: 25px;
+    padding-bottom: 3.906vw;
     ul{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
         list-style: none;
-        font-size: 1rem;
+        font-size: 1.042vw;
         font-family: 'II Vorkurs';
         li{
             padding: 25px 50px;

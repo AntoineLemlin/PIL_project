@@ -1,8 +1,4 @@
-:root{
-    --bg-color: #171717;
-    --font-color-main : white;
-}
-
+@import './layout/root';
 *{
     margin:0;
     padding: 0;
@@ -13,6 +9,7 @@
         color: var(--font-color-main);
         main{
             @import './layout/sidebar';
+            @import './layout/front-page';
         }
 
     }
