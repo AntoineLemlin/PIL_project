@@ -1,61 +1,18 @@
-:root {
-  --bg-color: #171717;
-  --font-color-main: white;
-}
+/* Error: expected "}".
+ *     ,
+ * 619 |     color: var(--unnamed-color-ffffff);
+ *     |                                        ^
+ *     '
+ *   layout\_root.scss 619:40  @import
+ *   display.scss 1:9          root stylesheet */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "}".\a     \2577 \a 619 \2502      color: var(--unnamed-color-ffffff);\a     \2502                                         ^\a     \2575 \a   layout\\_root.scss 619:40  @import\a   display.scss 1:9          root stylesheet';
 }
-* body {
-  background-color: var(--bg-color);
-  color: var(--font-color-main);
-}
-* body main aside {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  min-height: 96vh;
-  width: 7.625vw;
-  border: 1px solid black;
-  border-color: transparent;
-  border-right-color: rgba(255, 255, 255, 0.2);
-  border-bottom-color: rgba(255, 255, 255, 0.2);
-}
-* body main aside nav {
-  margin-bottom: 25px;
-}
-* body main aside nav ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  list-style: none;
-  font-size: 1rem;
-  font-family: "II Vorkurs";
-}
-* body main aside nav ul li {
-  padding: 25px 50px;
-}
-* body main aside nav ul li a {
-  color: var(--font-color-main);
-  text-decoration: none;
-}
-* body header header {
-  border-bottom-color: rgba(255, 255, 255, 0.2);
-}
-* body header .navbar-toggler-icon {
-  width: 7.625vw;
-  height: 7.625vh;
-}
-* body header .menu-item {
-  color: var(--font-color-main);
-  text-decoration: none;
-}
-* body header .current-menu-item {
-  color: var(--font-color-main);
-  text-decoration: none;
-}
-
-/*# sourceMappingURL=display.css.map */
