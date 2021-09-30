@@ -690,58 +690,30 @@ html {
 }
 
 * body {
-  overflow-x: hidden;
   background-color: var(--unnamed-color-171717);
 }
 
-* body header header {
-  position: sticky;
-  position: -webkit-sticky;
-  border-bottom: 1px solid var(--unnamed-color-4b4b4b);
+* body header {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
 }
 
-* body header .main-menu-ribbon {
+* body .main-menu-ribbon {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid var(--unnamed-color-4b4b4b);
 }
 
-* body header .main-menu-logo {
-  opacity: 1;
-  background-color: var(--unnamed-color-ffffff);
-}
-
-* body header .main-menu-list1 {
-  min-width: 50%;
-}
-
-* body header .main-menu-list2 {
-  max-width: 50%;
-}
-
-* body header .main-pages, * body header .contact-page {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  list-style-type: none;
-}
-
-* body header .main-pages .menu-item a, * body header .contact-page .menu-item a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: var(--unnamed-color-ffffff);
-  text-decoration: none;
-}
-
-* body header .contact-page-arrow {
+* body .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -751,19 +723,84 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 2rem;
-  width: 2rem;
+  width: 12.375rem;
+  height: 12.375rem;
+  background-color: white;
+}
+
+* body .logo .main-menu-logo {
+  max-width: 100%;
+  opacity: 1;
+  background-color: var(--unnamed-color-ffffff);
+}
+
+* body .main-menu-list1 {
+  min-width: 50%;
+}
+
+* body .main-menu-list2 {
+  max-width: 50%;
+}
+
+* body .main-pages, * body .contact-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+* body .main-pages .menu-item a, * body .contact-page .menu-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--unnamed-color-ffffff);
+  text-decoration: none;
+}
+
+* body .main-menu-list2 {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+* body .main-pages {
+  margin-left: 14.3rem;
+}
+
+* body .contact-page-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 4.6rem;
+  width: 4.6rem;
   border-radius: 50%;
   border: 2px solid var(--unnamed-color-4b4b4b);
 }
 
-* body header .contact-page-arrow:hover {
+* body .contact-page-arrow:hover {
   background-color: var(--unnamed-color-ffffff);
 }
 
-* body header .current-menu-item {
+* body .current-menu-item {
   color: var(--font-color-main);
   text-decoration: none;
+}
+
+* body #menu-item-63 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 * body main aside {
@@ -776,7 +813,7 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 100%;
+  min-height: 100vh;
   width: 12.375rem;
   border: 1px solid var(--unnamed-color-4b4b4b);
   border-top-color: transparent;
@@ -819,7 +856,7 @@ html {
 }
 
 * body main #section-intro {
-  padding: 14.3rem 0 0 26.675rem;
+  padding: 26.675rem 0 0 26.675rem;
   position: relative;
   width: 100%;
 }
@@ -854,7 +891,7 @@ html {
 
 * body main #section-intro .arrow {
   position: absolute;
-  top: 24rem;
+  top: 38rem;
   left: 80%;
   display: -webkit-box;
   display: -ms-flexbox;

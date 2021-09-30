@@ -8,12 +8,8 @@ html{
     padding: 0;
     box-sizing: border-box;
     body{
-        overflow-x: hidden;
             background-color: var(--unnamed-color-171717);
-            header{
                 @import './layout/header';
-
-            }
             main{
                 @import './layout/sidebar';
                 @import './layout/front-page';
