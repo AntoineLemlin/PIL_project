@@ -21,7 +21,7 @@ if (function_exists('acf_add_options_page')) {
 
 function add_scripts()
 {
-    wp_enqueue_style('style', get_template_directory_uri() . '/assets/styles/display.css', NULL, microtime(), all);
+    wp_enqueue_style('style', get_template_directory_uri() . '/assets/styles/display.css', NULL, microtime(), 'all');
     wp_enqueue_style('fonts', get_template_directory_uri() . '/assets/fonts/II Vorkurs/stylesheet.css', NULL, microtime(), 'all');
     wp_enqueue_script('script', get_template_directory_uri() . '/JS/main.js', NULL, microtime(), true);
 }
@@ -56,6 +56,7 @@ function theme_menus()
         'social' => 'Social Media Links Menu in Sidebar',
         'contact' => 'Contact Page Menu in Header',
         'footer' => 'Pages Links Footer'
+
     );
     register_nav_menus($locations);
 }
