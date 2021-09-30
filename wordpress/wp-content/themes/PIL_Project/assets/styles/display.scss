@@ -1,12 +1,16 @@
-:root {
-  --bg-color: #171717;
-  --font-color-main: white;
-}
-
+@import "./layout/root";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--unnamed-color-212121);
+  main {
+    @import "./layout/sidebar";
+    @import "./layout/front-page";
+  }
 
   body {
     background-color: var(--bg-color);

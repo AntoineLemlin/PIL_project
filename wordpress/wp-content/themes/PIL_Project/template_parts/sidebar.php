@@ -1,3 +1,4 @@
+<section>
 <?php 
 /*Template Name: social */ 
 $facebook = get_field('facebook', 'option');
@@ -7,8 +8,9 @@ $instagram = get_field('instagram', 'option');
 
 ?>
 
-<aside>
-    <nav>
-       <?php wp_nav_menu(array('theme_location' => 'social')); ?>
-    </nav>
-</aside>
+    <aside>
+        <nav>
+           <?php wp_nav_menu(array('theme_location' => 'social')); ?>
+        </nav>
+    </aside>
+</section>

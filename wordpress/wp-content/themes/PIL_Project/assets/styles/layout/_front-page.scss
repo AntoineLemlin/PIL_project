@@ -1,0 +1,27 @@
+#section-intro{
+    margin-left: 13.646vw;
+    h1{
+        padding-top: 13.880vw;
+        font-size: clamp(2.5vw, 4.68vw, 90px);
+        font-family: 'II Vorkurs';
+        max-width: 45vw;
+        font-weight: bold;
+        letter-spacing: -0.178vw;
+        line-break: 4.688vw;
+    }
+    
+    #front-page-video{
+        width: 85.3vw;
+    }
+
+    .arrow{
+        text-align: right;
+        margin-right: 8.75vw;
+        padding: 1.875vw;
+        border: 1px solid rgba($color:white, $alpha: 0.2);
+        width: 223px;
+        height: 223px;
+        border-radius: 50%;
+    }
+
+}
