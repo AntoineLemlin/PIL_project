@@ -38,28 +38,30 @@
         <p>Une entreprise du Pôle peut vous aider !</p>
         <div class="cards">
             <div class="card">
-                <img src="./assets/img/svg/cat-image.svg" alt="">
-                <h4>Image</h4>
+                <div class="company-logo"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-image.svg'?>" alt=""></div> 
+                <h4>Image <span>(14)</span></h4>
             </div>
             <div class="card">
-                <img src="./assets/img/svg/cat-image.svg" alt="">
-                <h4>Image</h4>
+                <div class="company-logo"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-ar-vr.svg'?>" alt=""></div> 
+                <h4>Ar / Vr <span>(5)</span></h4>
             </div>
             <div class="card">
-                <img src="./assets/img/svg/cat-image.svg" alt="">
-                <h4>Image</h4>
+            <div class="company-logo"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-son.svg'?>" alt=""></div> 
+                <h4>Son <span>(8)</span></h4>
             </div>
             <div class="card">
-                <img src="./assets/img/svg/cat-image.svg" alt="">
-                <h4>Image</h4>
+            <div class="company-logo"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-digital.svg'?>" alt=""></div> 
+                <h4>Digital <span>(23)</span></h4>
             </div>
             <div class="card">
-                <img src="./assets/img/svg/cat-image.svg" alt="">
-                <h4>Image</h4>
+            <div class="company-logo"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-digital-2.svg'?>" alt=""></div> 
+                <h4>Digital <span>(23)</span></h4>
             </div>
             <div class="card">
-                <img src="./assets/img/svg/cat-image.svg" alt="">
-                <h4>Image</h4>
+                <div class="container">
+                    <img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-digital.svg'?>" alt="">
+                    <h4>Voir toutes les entreprises</h4>
+                </div>
             </div>  
         </div>
 

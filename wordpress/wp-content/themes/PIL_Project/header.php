@@ -18,7 +18,7 @@
                     $logo = wp_get_attachment_image_src($custom_logo_id);
                 }
             ?>
-            <div class="logo"><img class="main-menu-logo" src="<?php echo $logo[0] ?>" alt="PIL logo" ></div>
+            <div class="logo"><a href=""><img class="main-menu-logo" src="<?php echo $logo[0] ?>" alt="PIL logo" ></a></div>
 
             <?php
                 wp_nav_menu(
@@ -40,7 +40,7 @@
                         'container' => 'div',
                         'container_class' => 'main-menu-list2',
                         'items_wrap' => '<ul id=""  class="contact-page menu-desktop">%3$s</ul>',
-                        'link_after'=>'&nbsp;<div class="contact-page-arrow"><img class="arrow-desktop" src="./wp-content/themes/PIL_Project/assets/img/svg/arrow-conctact.svg">
+                        'link_after'=>'&nbsp;<div class="contact-page-arrow"><img class="arrow-desktop" src="' . get_bloginfo('url') . '/wp-content/uploads/2021/09/arrow-conctact-1.svg">
                     </div>'
                     )
                 );
