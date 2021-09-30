@@ -1,9 +1,9 @@
 :root {
   /* Colors: */
-  --unnamed-color-ffc33b: #FFC33B;
-  --unnamed-color-ffffff: #FFFFFF;
+  --unnamed-color-ffc33b: #ffc33b;
+  --unnamed-color-ffffff: #ffffff;
   --unnamed-color-777777: #777777;
-  --unnamed-color-4b4b4b: #4B4B4B;
+  --unnamed-color-4b4b4b: #4b4b4b;
   --unnamed-color-212121: #212121;
   --unnamed-color-171717: #171717;
   --unnamed-color-000000: #000000;
@@ -678,13 +678,10 @@
   color: var(--unnamed-color-ffffff);
 }
 
-<<<<<<< HEAD
-=======
 html {
   font-size: 62.5%;
 }
 
->>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
 * {
   margin: 0;
   padding: 0;
@@ -693,109 +690,9 @@ html {
 }
 
 * body {
-<<<<<<< HEAD
   font-family: "II Vorkurs";
-  background-color: var(--unnamed-color-212121);
-}
-
-* body main aside {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  min-height: 192vh;
-  width: 6.615vw;
-  border: 1px solid black;
-  border-color: transparent;
-  border-right-color: rgba(255, 255, 255, 0.2);
-  border-bottom-color: rgba(255, 255, 255, 0.2);
-  float: left;
-}
-
-* body main aside nav {
-  padding-bottom: 3.906vw;
-}
-
-* body main aside nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  list-style: none;
-  font-size: 1.042vw;
-  font-family: 'II Vorkurs';
-}
-
-* body main aside nav ul li {
-  padding: 25px 50px;
-}
-
-* body main aside nav ul li a {
-  color: var(--font-color-main);
-  text-decoration: none;
-}
-
-* body main #section-intro {
-  margin-left: 13.646vw;
-}
-
-* body main #section-intro h1 {
-  padding-top: 13.880vw;
-  font-size: clamp(2.5vw, 4.68vw, 90px);
-  font-family: 'II Vorkurs';
-  max-width: 45vw;
-  font-weight: bold;
-  letter-spacing: -0.178vw;
-  line-break: 4.688vw;
-}
-
-* body main #section-intro #front-page-video {
-  width: 85.3vw;
-}
-
-* body main #section-intro .arrow {
-  text-align: right;
-  margin-right: 8.75vw;
-  padding: 1.875vw;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  width: 223px;
-  height: 223px;
-  border-radius: 50%;
-}
-
-* body header header {
-  position: sticky;
-  position: -webkit-sticky;
-  border-bottom: 1px solid var(--unnamed-color-4b4b4b);
-}
-
-* body header .main-menu-ribbon {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-* body header .main-menu-logo {
-=======
   background-color: var(--unnamed-color-171717);
+  overflow-x: hidden;
 }
 
 * body header {
@@ -835,22 +732,10 @@ html {
 
 * body .logo .main-menu-logo {
   max-width: 100%;
->>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
   opacity: 1;
   background-color: var(--unnamed-color-ffffff);
 }
 
-<<<<<<< HEAD
-* body header .main-menu-list1 {
-  min-width: 50%;
-}
-
-* body header .main-menu-list2 {
-  max-width: 50%;
-}
-
-* body header .main-pages, * body header .contact-page {
-=======
 * body .main-menu-list1 {
   min-width: 50%;
 }
@@ -860,7 +745,6 @@ html {
 }
 
 * body .main-pages, * body .contact-page {
->>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -870,11 +754,7 @@ html {
   list-style-type: none;
 }
 
-<<<<<<< HEAD
-* body header .main-pages .menu-item a, * body header .contact-page .menu-item a {
-=======
 * body .main-pages .menu-item a, * body .contact-page .menu-item a {
->>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -882,9 +762,6 @@ html {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-* body header .contact-page-arrow {
-=======
 * body .main-menu-list2 {
   margin-left: auto;
   margin-right: 15px;
@@ -895,7 +772,6 @@ html {
 }
 
 * body .contact-page-arrow {
->>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -905,60 +781,21 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-<<<<<<< HEAD
-  height: 2rem;
-  width: 2rem;
-=======
   height: 4.6rem;
   width: 4.6rem;
->>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
   border-radius: 50%;
   border: 2px solid var(--unnamed-color-4b4b4b);
 }
 
-<<<<<<< HEAD
-* body header .contact-page-arrow:hover {
-  background-color: var(--unnamed-color-ffffff);
-}
-
-* body header .current-menu-item {
-=======
 * body .contact-page-arrow:hover {
   background-color: var(--unnamed-color-ffffff);
 }
 
 * body .current-menu-item {
->>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
   color: var(--font-color-main);
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-* body footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: #ffffff;
-  border-top: 1px solid white;
-  margin-right: 5rem;
-  margin-left: 5rem;
-}
-
-* body footer .contact {
-  padding: 0.8rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  border-right: 1px solid white;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-* body footer .contact .titleAdress {
-=======
 * body #menu-item-63 a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -986,6 +823,7 @@ html {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
 }
 
 * body main aside nav {
@@ -993,7 +831,6 @@ html {
 }
 
 * body main aside nav ul {
->>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1001,76 +838,6 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
-  font-size: 15px;
-}
-
-* body footer .contact .titlePole {
-  font-size: 20px;
-  width: 8vw;
-  margin-bottom: 8rem;
-  margin-top: 1rem;
-  color: white;
-}
-
-* body footer .phone {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 9rem;
-  height: 9rem;
-  border: 1px solid white;
-  border-radius: 50%;
-  margin: 0rem 1rem 0rem 1rem;
-}
-
-* body footer .phone .number {
-  white-space: nowrap;
-}
-
-* body footer .copyright {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-* body footer .copyright .menuCredits {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 1rem 1rem 1rem 1rem;
-}
-
-* body footer .copyright ul {
-  list-style-type: none;
-}
-
-* body footer .copyright ul li {
-  margin: 1rem 1rem 1rem 0rem;
-  white-space: nowrap;
-}
-
-* body footer .copyright ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-* body footer .copyright ul li a:visited {
-  color: white;
-=======
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
@@ -1233,6 +1000,112 @@ html {
   letter-spacing: -.513rem;
   opacity: 1;
   color: var(--unnamed-color-ffffff);
->>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
+}
+
+* body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  border-top: 1px solid white;
+  max-width: 75%;
+  margin-left: 25rem;
+}
+
+* body footer .contact {
+  padding: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 1px solid white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+}
+
+* body footer .contact .titleAdress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 15px;
+}
+
+* body footer .contact .titlePole {
+  font-size: 20px;
+  width: 10.7rem;
+  margin-bottom: 8rem;
+  color: white;
+  line-height: 3rem;
+  margin-top: 3rem;
+}
+
+* body footer .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15rem;
+  height: 15rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+* body footer .phone .number {
+  white-space: nowrap;
+}
+
+* body footer .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 66%;
+      flex-basis: 66%;
+}
+
+* body footer .copyright .menuCredits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+* body footer .copyright ul {
+  list-style-type: none;
+}
+
+* body footer .copyright ul li {
+  margin: 1rem 1rem 1rem 0rem;
+  white-space: nowrap;
+}
+
+* body footer .copyright ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+* body footer .copyright ul li a:visited {
+  color: white;
 }
 /*# sourceMappingURL=display.css.map */

@@ -9,6 +9,7 @@ html {
   body {
     font-family: "II Vorkurs";
     background-color: var(--unnamed-color-171717);
+    overflow-x: hidden;
     @import "./layout/header";
     main {
       @import "./layout/sidebar";
