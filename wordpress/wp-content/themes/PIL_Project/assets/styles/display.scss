@@ -14,8 +14,6 @@
     main {
       @import "./layout/sidebar";
     }
-    footer {
-      @import "./layout/footer";
-    }
+    @import "./layout/footer";
   }
 }

@@ -19,35 +19,45 @@ $designer = get_field('designer', 'options');
 ?>
 
 <footer>
-    <br>
-    <br>
-    <ul class="footer">
-        <li class="titleFooter">
-            <?php echo $title; ?>
-        </li>
-        <li class="mailFooter">
+    <div class="contact">
+        <div class="titleAdress">
+            <h3 class="titlePole"><?php echo $title; ?></h3>
             <a href="mailto:<?php echo $mail; ?>"><?php echo $mail; ?></a>
-        </li>
-        <li class="phoneFooter">
-            <a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a>
-        </li>
-        <li class="streetFooter">
-            <?php echo $street_name; ?>
-            <?php echo $street_number; ?></li>
-        <li class="postalFooter"><?php echo $postal_code; ?><?php echo $city; ?><?php echo $country; ?></li>
-        <li class="copyrightFooter">
-            <?php echo $copyright; ?>
-        </li>
-        <li class="confidentialityFooter">
-            <?php echo $confidentiality; ?>
-        </li>
-        <li class="designByFooter">
-            <?php echo $designer; ?><a href="https://savoirfaire.digital/"> savoirefaire.digital</a>
-        </li>
-        <li class="madeByFooter">
-            <?php echo $coders; ?><a href="https://becode.org/"> becode.org</a>
-        </li>
-    </ul>
+            <p>
+                <?php echo $street_name . ',' ?>
+                <?php echo $street_number; ?>
+            </p>
+            <p>
+                <?php echo $postal_code . ' '; ?>
+                <?php echo $city  . ', '; ?>
+                <?php echo $country; ?>
+            </p>
+        </div>
+        <div class="phone">
+            <div class="number"><a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a></div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="menuCredits">
+            <nav>
+                <?php
+                wp_nav_menu(
+                    array(
+                        'menu' => 'footer',
+                        'theme_location' => 'footer'
+                    )
+                );
+                ?>
+            </nav>
+            <h6><?php echo $copyright . ' © 2021'; ?></h6>
+            <h6><?php echo $confidentiality; ?></h6>
+        </div>
+        <div class="madeBy">
+            <h6><?php echo $designer; ?><a href="https://savoirfaire.digital/"> savoirefaire.digital</a></h6>
+            <h6><?php echo $coders; ?><a href="https://becode.org/"> becode.org</a></h6>
+        </div>
+    </div>
+
 </footer>
 
 <?php wp_footer(); ?>

@@ -1,8 +1,58 @@
-.footer {
-  color: #ffffff;
+// TEST
+footer {
+  display: flex;
+  color: #656565;
   font-family: "II Vorkurs";
-  .titleFooter {
-    font-size: 20px;
-    width: 110px;
+  border-top: 1px solid white;
+  margin-right: 8vw;
+  margin-left: 8vw;
+  .contact {
+    padding: 2vw;
+    display: flex;
+    border-right: 1px solid white;
+    justify-content: space-around;
+    align-items: center;
+    .titleAdress {
+      display: flex;
+      flex-direction: column;
+      .titlePole {
+        width: 8vw;
+        font-size: 20px;
+        color: white;
+        margin-bottom: 12vw;
+        margin-top: 2vw;
+      }
+    }
+    .phone {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 12vw;
+      height: 12vw;
+      border: 1px solid white;
+      border-radius: 50%;
+      margin: 0vw 3vw 0vw 3vw;
+      .number {
+        white-space: nowrap;
+      }
+    }
+  }
+  nav {
+    display: flex;
+
+    ul {
+      list-style-type: none;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      &:visited {
+        color: white;
+      }
+    }
+  }
+  .copyright {
+    display: flex;
+    justify-content: space-around;
   }
 }

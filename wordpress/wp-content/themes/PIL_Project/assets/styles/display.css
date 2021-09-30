@@ -65,13 +65,93 @@
   text-decoration: none;
 }
 
-* body footer .footer {
-  color: #ffffff;
+* body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #656565;
   font-family: "II Vorkurs";
+  border-top: 1px solid white;
+  margin-right: 8vw;
+  margin-left: 8vw;
 }
 
-* body footer .footer .titleFooter {
+* body footer .contact {
+  padding: 2vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 1px solid white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* body footer .contact .titleAdress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+* body footer .contact .titleAdress .titlePole {
+  width: 8vw;
   font-size: 20px;
-  width: 110px;
+  color: white;
+  margin-bottom: 12vw;
+  margin-top: 2vw;
+}
+
+* body footer .contact .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 12vw;
+  height: 12vw;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0vw 3vw 0vw 3vw;
+}
+
+* body footer .contact .phone .number {
+  white-space: nowrap;
+}
+
+* body footer nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* body footer nav ul {
+  list-style-type: none;
+}
+
+* body footer nav a {
+  color: white;
+  text-decoration: none;
+}
+
+* body footer nav a:visited {
+  color: white;
+}
+
+* body footer .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 /*# sourceMappingURL=display.css.map */

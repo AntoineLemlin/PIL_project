@@ -64,7 +64,8 @@ function theme_menus()
 {
     $locations = array(
         'primary' => 'Main Pages Menu in Header',
-        'social' => 'Social Media Links Menu in Sidebar'
+        'social' => 'Social Media Links Menu in Sidebar',
+        'footer' => 'Pages Links Footer'
     );
     register_nav_menus($locations);
 }
