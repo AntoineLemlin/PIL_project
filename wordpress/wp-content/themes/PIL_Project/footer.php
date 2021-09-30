@@ -21,7 +21,7 @@ $designer = get_field('designer', 'options');
 <footer>
     <div class="contact">
         <div class="titleAdress">
-            <h3 class="titlePole"><?php echo $title; ?></h3>
+            <h4 class="titlePole"><?php echo $title; ?></h4>
             <a href="mailto:<?php echo $mail; ?>"><?php echo $mail; ?></a>
             <p>
                 <?php echo $street_name . ',' ?>
