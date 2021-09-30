@@ -1,0 +1,16 @@
+.text-scroll{
+    position: relative;
+    margin-top: 25rem;
+    h2{
+        position: absolute;
+        white-space: nowrap;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) 135px/216px var(--unnamed-font-family-ii-vorkurs);
+        text-align: left;
+        font-family:'II Vorkurs';
+        font-size: 13.6rem;
+        letter-spacing: -.513rem;
+        opacity: 1;
+        color: var(--unnamed-color-ffffff);
+    }
+
+}

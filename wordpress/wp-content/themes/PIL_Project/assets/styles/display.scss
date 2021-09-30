@@ -1,18 +1,24 @@
 @import './layout/root';
+html{
+    font-size: 62.5%;
+
+}
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
-    
     body{
-        background-color: var(--unnamed-color-212121);
-        main{
-            @import './layout/sidebar';
-            @import './layout/front-page';
-        }
-        header{
-            @import './layout/header';
-        }
+        overflow-x: hidden;
+            background-color: var(--unnamed-color-171717);
+            header{
+                @import './layout/header';
 
-    }
+            }
+            main{
+                @import './layout/sidebar';
+                @import './layout/front-page';
+                @import './layout/scroll-text';
+            }
+
+        }
 }
