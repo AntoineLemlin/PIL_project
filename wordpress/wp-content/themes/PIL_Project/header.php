@@ -12,39 +12,42 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="main-menu-ribbon">
+            <?php
+            if (function_exists('the_custom_logo')) {
+                $custom_logo_id = get_theme_mod('custom_logo');
+                $logo = wp_get_attachment_image_src($custom_logo_id);
+            }
+            ?>
+            <img class="main-menu-logo" src="<?php echo $logo[0] ?>" alt="PIL logo">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon">
-                    <?php
-                    if (function_exists('the_custom_logo')) {
-                        $custom_logo_id = get_theme_mod('custom_logo');
-                        $logo = wp_get_attachment_image_src($custom_logo_id);
-                    }
-                    ?>
+            <?php
+            wp_nav_menu(
+                array(
+                    'menu' => 'primary',
+                    'theme_location' => 'primary',
+                    'container' => 'div',
+                    'container_class' => 'main-menu-list1',
+                    'items_wrap' => '<ul id="" class="main-pages menu-desktop">%3$s</ul>'
+                )
+            );
+            ?>
 
-                    <img class="" src="<?php echo $logo[0] ?>" alt="PIL logo">
-                </span>
-            </button>
-
-            <div id="navigation" class="collapse navbar-collapse flex-column">
-                <?php
-                wp_nav_menu(
-                    array(
-                        'menu' => 'primary',
-                        'container' => '',
-                        'theme_location' => 'primary',
-                        'items_wrap' => '<ul id="" class="navbar-nav flex-column text-sm-center text-md-left">%3$s</ul>'
-                    )
-
-                );
-
-                ?>
-
-            </div>
+            <?php
+            wp_nav_menu(
+                array(
+                    'menu' => 'contact',
+                    'theme_location' => 'contact',
+                    'container' => 'div',
+                    'container_class' => 'main-menu-list2',
+                    'items_wrap' => '<ul id=""  class="contact-page menu-desktop">%3$s</ul>',
+                    'link_after' => '&nbsp;<div class="contact-page-arrow"><img class="arrow-desktop" src="./wp-content/themes/PIL_Project/assets/img/svg/arrow-conctact.svg">
+                    </div>'
+                )
+            );
+            ?>
 
         </nav>
-
-
+    </header>
 
     </header>

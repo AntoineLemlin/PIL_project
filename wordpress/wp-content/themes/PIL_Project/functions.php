@@ -65,11 +65,11 @@ function theme_menus()
     $locations = array(
         'primary' => 'Main Pages Menu in Header',
         'social' => 'Social Media Links Menu in Sidebar',
+        'contact' => 'Contact Page Menu in Header',
         'footer' => 'Pages Links Footer'
     );
     register_nav_menus($locations);
 }
-
 add_action('init', 'theme_menus');
 add_action('after_setup_theme', 'theme_functions');
 add_action('wp_enqueue_scripts', 'add_scripts');

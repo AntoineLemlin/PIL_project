@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   /* Colors: */
   --unnamed-color-ffc33b: #ffc33b;
@@ -863,3 +864,23 @@
       justify-content: space-around;
 }
 /*# sourceMappingURL=display.css.map */
+=======
+/* Error: expected "}".
+ *     ,
+ * 619 |     color: var(--unnamed-color-ffffff);
+ *     |                                        ^
+ *     '
+ *   layout\_root.scss 619:40  @import
+ *   display.scss 1:9          root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "}".\a     \2577 \a 619 \2502      color: var(--unnamed-color-ffffff);\a     \2502                                         ^\a     \2575 \a   layout\\_root.scss 619:40  @import\a   display.scss 1:9          root stylesheet';
+}
+>>>>>>> 117d817a6b9b04f50c505910f4a77acaf6655c9f
