@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 :root {
   /* Colors: */
   --unnamed-color-ffc33b: #ffc33b;
@@ -687,6 +686,7 @@
 }
 
 * body {
+  font-family: "II Vorkurs";
   background-color: var(--unnamed-color-212121);
 }
 
@@ -769,19 +769,90 @@
   border-radius: 50%;
 }
 
+* body header header {
+  position: sticky;
+  position: -webkit-sticky;
+  border-bottom: 1px solid var(--unnamed-color-4b4b4b);
+}
+
+* body header .main-menu-ribbon {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* body header .main-menu-logo {
+  opacity: 1;
+  background-color: var(--unnamed-color-ffffff);
+}
+
+* body header .main-menu-list1 {
+  min-width: 50%;
+}
+
+* body header .main-menu-list2 {
+  max-width: 50%;
+}
+
+* body header .main-pages, * body header .contact-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+* body header .main-pages .menu-item a, * body header .contact-page .menu-item a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--unnamed-color-ffffff);
+  text-decoration: none;
+}
+
+* body header .contact-page-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: 2px solid var(--unnamed-color-4b4b4b);
+}
+
+* body header .contact-page-arrow:hover {
+  background-color: var(--unnamed-color-ffffff);
+}
+
+* body header .current-menu-item {
+  color: var(--font-color-main);
+  text-decoration: none;
+}
+
 * body footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #656565;
-  font-family: "II Vorkurs";
+  color: #ffffff;
   border-top: 1px solid white;
-  margin-right: 8vw;
-  margin-left: 8vw;
+  margin-right: 5rem;
+  margin-left: 5rem;
 }
 
 * body footer .contact {
-  padding: 2vw;
+  padding: 0.8rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -801,22 +872,18 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-size: 15px;
 }
 
-* body footer .contact .titleAdress .titlePole {
+* body footer .contact .titlePole {
+  font-size: 20px;
   width: 8vw;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
   margin-top: 1rem;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ii-vorkurs);
-  letter-spacing: var(--unnamed-character-spacing-0);
-  color: var(--unnamed-color-ffffff);
-  text-align: left;
-  letter-spacing: 0px;
-  color: #ffffff;
-  opacity: 1;
+  color: white;
 }
 
-* body footer .contact .phone {
+* body footer .phone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -826,61 +893,52 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 12vw;
-  height: 12vw;
+  width: 9rem;
+  height: 9rem;
   border: 1px solid white;
   border-radius: 50%;
-  margin: 0vw 3vw 0vw 3vw;
+  margin: 0rem 1rem 0rem 1rem;
 }
 
-* body footer .contact .phone .number {
+* body footer .phone .number {
   white-space: nowrap;
-}
-
-* body footer nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-* body footer nav ul {
-  list-style-type: none;
-}
-
-* body footer nav a {
-  color: white;
-  text-decoration: none;
-}
-
-* body footer nav a:visited {
-  color: white;
 }
 
 * body footer .copyright {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+}
+
+* body footer .copyright .menuCredits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
+* body footer .copyright ul {
+  list-style-type: none;
+}
+
+* body footer .copyright ul li {
+  margin: 1rem 1rem 1rem 0rem;
+  white-space: nowrap;
+}
+
+* body footer .copyright ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+* body footer .copyright ul li a:visited {
+  color: white;
 }
 /*# sourceMappingURL=display.css.map */
-=======
-/* Error: expected "}".
- *     ,
- * 619 |     color: var(--unnamed-color-ffffff);
- *     |                                        ^
- *     '
- *   layout\_root.scss 619:40  @import
- *   display.scss 1:9          root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a     \2577 \a 619 \2502      color: var(--unnamed-color-ffffff);\a     \2502                                         ^\a     \2575 \a   layout\\_root.scss 619:40  @import\a   display.scss 1:9          root stylesheet';
-}
->>>>>>> 117d817a6b9b04f50c505910f4a77acaf6655c9f

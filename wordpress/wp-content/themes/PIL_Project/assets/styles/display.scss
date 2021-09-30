@@ -5,6 +5,7 @@
   box-sizing: border-box;
 
   body {
+    font-family: "II Vorkurs";
     background-color: var(--unnamed-color-212121);
     main {
       @import "./layout/sidebar";

@@ -49,8 +49,10 @@ $designer = get_field('designer', 'options');
                 );
                 ?>
             </nav>
-            <h6><?php echo $copyright . ' © 2021'; ?></h6>
-            <h6><?php echo $confidentiality; ?></h6>
+            <div>
+                <h6><?php echo $copyright . ' © 2021'; ?></h6>
+                <h6><?php echo $confidentiality; ?></h6>
+            </div>
         </div>
         <div class="madeBy">
             <h6><?php echo $designer; ?><a href="https://savoirfaire.digital/"> savoirefaire.digital</a></h6>

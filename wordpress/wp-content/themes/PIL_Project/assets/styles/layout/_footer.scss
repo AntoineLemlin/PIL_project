@@ -1,13 +1,12 @@
 // TEST
 footer {
   display: flex;
-  color: #656565;
-  font-family: "II Vorkurs";
+  color: #ffffff;
   border-top: 1px solid white;
-  margin-right: 8vw;
-  margin-left: 8vw;
+  margin-right: 5rem;
+  margin-left: 5rem;
   .contact {
-    padding: 2vw;
+    padding: 0.8rem;
     display: flex;
     border-right: 1px solid white;
     justify-content: space-around;
@@ -15,51 +14,50 @@ footer {
     .titleAdress {
       display: flex;
       flex-direction: column;
-      .titlePole {
-        width: 8vw;
-        margin-bottom: 6rem;
-        margin-top: 1rem;
-        font: var(--unnamed-font-style-normal) normal
-          var(--unnamed-font-weight-medium) var(--unnamed-font-size-20) /
-          var(--unnamed-line-spacing-30) var(--unnamed-font-family-ii-vorkurs);
-        letter-spacing: var(--unnamed-character-spacing-0);
-        color: var(--unnamed-color-ffffff);
-        text-align: left;
-        letter-spacing: 0px;
-        color: #ffffff;
-        opacity: 1;
-      }
+      font-size: 15px;
     }
-    .phone {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 12vw;
-      height: 12vw;
-      border: 1px solid white;
-      border-radius: 50%;
-      margin: 0vw 3vw 0vw 3vw;
-      .number {
-        white-space: nowrap;
-      }
+    .titlePole {
+      font-size: 20px;
+      width: 8vw;
+      margin-bottom: 8rem;
+      margin-top: 1rem;
+      color: white;
     }
   }
-  nav {
+  .phone {
     display: flex;
-
-    ul {
-      list-style-type: none;
-    }
-    a {
-      color: white;
-      text-decoration: none;
-      &:visited {
-        color: white;
-      }
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    height: 9rem;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0rem 1rem 0rem 1rem;
+    .number {
+      white-space: nowrap;
     }
   }
   .copyright {
     display: flex;
-    justify-content: space-around;
+    .menuCredits {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 1rem 1rem 1rem 1rem;
+    }
+    ul {
+      list-style-type: none;
+      li {
+        margin: 1rem 1rem 1rem 0rem;
+        white-space: nowrap;
+        a {
+          color: white;
+          text-decoration: none;
+          &:visited {
+            color: white;
+          }
+        }
+      }
+    }
   }
 }
