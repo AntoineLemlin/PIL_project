@@ -19,7 +19,7 @@
                 $logo = wp_get_attachment_image_src($custom_logo_id);
             }
             ?>
-            <img class="main-menu-logo" src="<?php echo $logo[0] ?>" alt="PIL logo">
+            <div class="logo"><img class="main-menu-logo" src="<?php echo $logo[0] ?>" alt="PIL logo"></div>
 
             <?php
             wp_nav_menu(

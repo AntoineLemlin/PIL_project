@@ -2,28 +2,30 @@ aside{
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    min-height: 192vh;
-    width: 6.615vw;
-    border: 1px solid black;
-    border-color: transparent;
-    border-right-color: rgba($color:white, $alpha: 0.2);
-    border-bottom-color: rgba($color:white, $alpha: 0.2);
-    float:left;
+    min-height: 100vh;
+    width: 12.375rem;
+    border: 1px solid var(--unnamed-color-4b4b4b);
+    border-top-color: transparent;
+    border-left-color: transparent;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
 nav{
-    padding-bottom: 3.906vw;
+    padding-bottom: 7.5rem;
     ul{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
         list-style: none;
-        font-size: 1.042vw;
+        font-size: 2rem;
         font-family: 'II Vorkurs';
         li{
-            padding: 25px 50px;
+            padding: 2.5rem 5rem;
 
             a{
-                color: var(--font-color-main);
+                color: var(--unnamed-color-ffffff);
                 text-decoration: none;
             }
         }

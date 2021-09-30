@@ -1,18 +1,19 @@
 @import "./layout/root";
+html {
+  font-size: 62.5%;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   body {
     font-family: "II Vorkurs";
-    background-color: var(--unnamed-color-212121);
+    background-color: var(--unnamed-color-171717);
+    @import "./layout/header";
     main {
       @import "./layout/sidebar";
       @import "./layout/front-page";
-    }
-    header {
-      @import "./layout/header";
+      @import "./layout/scroll-text";
     }
     @import "./layout/footer";
   }

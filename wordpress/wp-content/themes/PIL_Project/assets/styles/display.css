@@ -1,9 +1,9 @@
 :root {
   /* Colors: */
-  --unnamed-color-ffc33b: #ffc33b;
-  --unnamed-color-ffffff: #ffffff;
+  --unnamed-color-ffc33b: #FFC33B;
+  --unnamed-color-ffffff: #FFFFFF;
   --unnamed-color-777777: #777777;
-  --unnamed-color-4b4b4b: #4b4b4b;
+  --unnamed-color-4b4b4b: #4B4B4B;
   --unnamed-color-212121: #212121;
   --unnamed-color-171717: #171717;
   --unnamed-color-000000: #000000;
@@ -678,6 +678,13 @@
   color: var(--unnamed-color-ffffff);
 }
 
+<<<<<<< HEAD
+=======
+html {
+  font-size: 62.5%;
+}
+
+>>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
 * {
   margin: 0;
   padding: 0;
@@ -686,6 +693,7 @@
 }
 
 * body {
+<<<<<<< HEAD
   font-family: "II Vorkurs";
   background-color: var(--unnamed-color-212121);
 }
@@ -786,37 +794,31 @@
 }
 
 * body header .main-menu-logo {
-  opacity: 1;
-  background-color: var(--unnamed-color-ffffff);
+=======
+  background-color: var(--unnamed-color-171717);
 }
 
-* body header .main-menu-list1 {
-  min-width: 50%;
+* body header {
+  width: 100%;
+  position: fixed;
+  z-index: 10;
 }
 
-* body header .main-menu-list2 {
-  max-width: 50%;
-}
-
-* body header .main-pages, * body header .contact-page {
+* body .main-menu-ribbon {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  list-style-type: none;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid var(--unnamed-color-4b4b4b);
 }
 
-* body header .main-pages .menu-item a, * body header .contact-page .menu-item a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: var(--unnamed-color-ffffff);
-  text-decoration: none;
-}
-
-* body header .contact-page-arrow {
+* body .logo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -826,21 +828,112 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 12.375rem;
+  height: 12.375rem;
+  background-color: white;
+}
+
+* body .logo .main-menu-logo {
+  max-width: 100%;
+>>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
+  opacity: 1;
+  background-color: var(--unnamed-color-ffffff);
+}
+
+<<<<<<< HEAD
+* body header .main-menu-list1 {
+  min-width: 50%;
+}
+
+* body header .main-menu-list2 {
+  max-width: 50%;
+}
+
+* body header .main-pages, * body header .contact-page {
+=======
+* body .main-menu-list1 {
+  min-width: 50%;
+}
+
+* body .main-menu-list2 {
+  max-width: 50%;
+}
+
+* body .main-pages, * body .contact-page {
+>>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style-type: none;
+}
+
+<<<<<<< HEAD
+* body header .main-pages .menu-item a, * body header .contact-page .menu-item a {
+=======
+* body .main-pages .menu-item a, * body .contact-page .menu-item a {
+>>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--unnamed-color-ffffff);
+  text-decoration: none;
+}
+
+<<<<<<< HEAD
+* body header .contact-page-arrow {
+=======
+* body .main-menu-list2 {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+* body .main-pages {
+  margin-left: 14.3rem;
+}
+
+* body .contact-page-arrow {
+>>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+<<<<<<< HEAD
   height: 2rem;
   width: 2rem;
+=======
+  height: 4.6rem;
+  width: 4.6rem;
+>>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
   border-radius: 50%;
   border: 2px solid var(--unnamed-color-4b4b4b);
 }
 
+<<<<<<< HEAD
 * body header .contact-page-arrow:hover {
   background-color: var(--unnamed-color-ffffff);
 }
 
 * body header .current-menu-item {
+=======
+* body .contact-page-arrow:hover {
+  background-color: var(--unnamed-color-ffffff);
+}
+
+* body .current-menu-item {
+>>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
   color: var(--font-color-main);
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 * body footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -865,6 +958,42 @@
 }
 
 * body footer .contact .titleAdress {
+=======
+* body #menu-item-63 a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* body main aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  width: 12.375rem;
+  border: 1px solid var(--unnamed-color-4b4b4b);
+  border-top-color: transparent;
+  border-left-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+* body main aside nav {
+  padding-bottom: 7.5rem;
+}
+
+* body main aside nav ul {
+>>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -872,6 +1001,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+<<<<<<< HEAD
   font-size: 15px;
 }
 
@@ -940,5 +1070,169 @@
 
 * body footer .copyright ul li a:visited {
   color: white;
+=======
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  font-size: 2rem;
+  font-family: 'II Vorkurs';
+}
+
+* body main aside nav ul li {
+  padding: 2.5rem 5rem;
+}
+
+* body main aside nav ul li a {
+  color: var(--unnamed-color-ffffff);
+  text-decoration: none;
+}
+
+* body main #section-intro {
+  padding: 26.675rem 0 0 26.675rem;
+  position: relative;
+  width: 100%;
+}
+
+* body main #section-intro h1 {
+  margin-bottom: 7.5rem;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-90)/var(--unnamed-line-spacing-90) var(--unnamed-font-family-ii-vorkurs);
+  letter-spacing: var(--unnamed-character-spacing--3-42);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font-size: 9rem;
+  font-family: 'II Vorkurs';
+  line-height: 9rem;
+  letter-spacing: -3.42px;
+  color: #FFFFFF;
+  opacity: 1;
+  max-width: 78.4rem;
+}
+
+* body main #section-intro #front-page-video {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+  opacity: 1;
+}
+
+* body main #section-intro #front-page-video img {
+  max-width: 100%;
+  height: auto;
+}
+
+* body main #section-intro .arrow {
+  position: absolute;
+  top: 38rem;
+  left: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  margin-bottom: -6.5rem;
+  z-index: 1;
+  max-height: 27.3rem;
+  max-width: 27.3rem;
+  min-width: 23rem;
+  min-height: 23rem;
+}
+
+* body main #section-intro .arrow img {
+  height: 3.6rem;
+  width: 3.6rem;
+}
+
+* body main .intro-text {
+  max-width: 100%;
+  margin: 14.3rem 0 0 26.675rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+* body main .intro-text div {
+  -ms-flex-preferred-size: 33.4rem;
+      flex-basis: 33.4rem;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+* body main .intro-text div h3 {
+  font-size: 3.4rem;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal bold II Vorkurs;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  margin-bottom: 4rem;
+}
+
+* body main .intro-text div ul li {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal 300 18px/26px II Vorkurs;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+* body main .intro-text .texte {
+  max-width: 33.4rem;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-34)/var(--unnamed-line-spacing-47) var(--unnamed-font-family-ii-vorkurs);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font-family: 'II Vorkurs';
+  font-size: 3.4rem;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  line-break: 4.7rem;
+  opacity: 1;
+}
+
+* body main .projet {
+  margin: 65rem 0 0 26.675rem;
+}
+
+* body main .text-scroll {
+  position: relative;
+  margin-top: 25rem;
+}
+
+* body main .text-scroll h2 {
+  position: absolute;
+  white-space: nowrap;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) 135px/216px var(--unnamed-font-family-ii-vorkurs);
+  text-align: left;
+  font-family: 'II Vorkurs';
+  font-size: 13.6rem;
+  letter-spacing: -.513rem;
+  opacity: 1;
+  color: var(--unnamed-color-ffffff);
+>>>>>>> 7ace98a737b2ed8c041edf11639ce5e075ed5822
 }
 /*# sourceMappingURL=display.css.map */
