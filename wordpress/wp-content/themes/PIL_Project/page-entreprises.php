@@ -1,5 +1,5 @@
 <?php
-/* Template Name: Pole */
+/* Template Name: Entreprises */
 ?>
 <?php get_header(); ?>
 <?php get_footer(); ?>

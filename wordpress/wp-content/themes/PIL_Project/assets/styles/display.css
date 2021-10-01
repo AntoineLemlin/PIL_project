@@ -1,9 +1,9 @@
 :root {
   /* Colors: */
-  --unnamed-color-ffc33b: #FFC33B;
-  --unnamed-color-ffffff: #FFFFFF;
+  --unnamed-color-ffc33b: #ffc33b;
+  --unnamed-color-ffffff: #ffffff;
   --unnamed-color-777777: #777777;
-  --unnamed-color-4b4b4b: #4B4B4B;
+  --unnamed-color-4b4b4b: #4b4b4b;
   --unnamed-color-212121: #212121;
   --unnamed-color-171717: #171717;
   --unnamed-color-000000: #000000;
@@ -690,9 +690,15 @@ html {
 }
 
 * body {
+<<<<<<< HEAD
   overflow-x: hidden;
   font-family: 'II Vorkurs';
+=======
+  font-family: "II Vorkurs";
+>>>>>>> footer
   background-color: var(--unnamed-color-171717);
+  overflow-x: hidden;
+  /* Order margin padding haut | droit | bas | gauche */
 }
 
 * body header {
@@ -823,6 +829,7 @@ html {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
 }
 
 * body main aside nav {
@@ -1124,5 +1131,168 @@ html {
   letter-spacing: -.513rem;
   opacity: 1;
   color: var(--unnamed-color-ffffff);
+}
+
+* body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  border-top: 0.1rem solid #ffffff;
+  max-width: 75%;
+  margin: auto;
+}
+
+* body footer .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 0.1rem solid #ffffff;
+  padding: 4rem 5rem 2rem 0rem;
+}
+
+* body footer .contact .titleAddress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.5rem;
+  margin-right: 4rem;
+}
+
+* body footer .contact .titleAddress .address {
+  white-space: nowrap;
+  font-weight: lighter;
+}
+
+* body footer .contact .titleAddress .address a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+* body footer .contact .titleAddress .address a:visited {
+  color: #ffffff;
+}
+
+* body footer .contact .titlePole {
+  font-size: 2rem;
+  max-width: 10.7rem;
+  color: #ffffff;
+}
+
+* body footer .contact .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 3rem 4rem 0rem;
+  min-width: 15rem !important;
+  height: 15rem;
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+
+* body footer .contact .phone .number {
+  font-size: 1.5rem;
+  white-space: nowrap;
+  font-weight: lighter;
+}
+
+* body footer .contact .phone .number a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+* body footer .contact .phone .number a:visited {
+  color: #ffffff;
+}
+
+* body footer .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 4rem 0rem 2rem 5rem;
+  color: #656565;
+}
+
+* body footer .copyright .menuCredits {
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* body footer .copyright .menuCredits h6 {
+  font-weight: lighter;
+}
+
+* body footer .copyright .madeBy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-size: 1.5rem;
+}
+
+* body footer .copyright .madeBy h6 {
+  font-weight: lighter;
+}
+
+* body footer .copyright .madeBy a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+* body footer .copyright .madeBy a:visited {
+  color: #ffffff;
+}
+
+* body footer .copyright ul {
+  list-style-type: none;
+}
+
+* body footer .copyright ul li {
+  font-size: 2.2rem;
+  white-space: nowrap;
+  margin-bottom: 2.5rem;
+}
+
+* body footer .copyright ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+* body footer .copyright ul li a:visited {
+  color: #ffffff;
 }
 /*# sourceMappingURL=display.css.map */
