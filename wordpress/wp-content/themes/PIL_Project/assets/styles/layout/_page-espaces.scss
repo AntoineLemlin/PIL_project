@@ -1,6 +1,40 @@
-.page-espaces-section-white {
+.align-left-with-header {
+    margin:0rem 26.675rem ;
+}
+.espaces-top-banner {
     background-color: var(--unnamed-color-ffffff);
-    width: 100%;
+    text-align:center;
+}
 
+.section-espaces-white {
+    background-color: var(--unnamed-color-ffffff);
+    text-align:left;
+    .espaces-pagination {
+        position:relative;
+        top: 15rem;
+    }
+    .espaces-image-container {
+
+        .espaces-image{
+            width:100%;
+        }
+    }
+    .espaces-description-container{
+        display:flex;
+    }
+
+}
+
+.section-outils-black {
+    background-color: var(--unnamed-color-000000);
+    text-align:left;
+    .outils-description-container{
+        display:flex;
+    }
+    .outils-image-container {
+        .outils-image{
+            width:100%;
+        }
+    }
 
 }
