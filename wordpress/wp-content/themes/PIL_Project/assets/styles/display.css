@@ -58,7 +58,7 @@
 }
 
 /* Character Styles */
-.h1-destkop {
+.h1-desktop-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -68,7 +68,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.h1-tablet {
+.h1-tablet-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -78,7 +78,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.h1-mobile {
+.h1-mobile-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -88,7 +88,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.h1-destkop {
+.h1-desktop-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -98,7 +98,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h1-tablet {
+.h1-tablet-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -108,7 +108,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h1-mobile {
+.h1-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -118,7 +118,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h1-destkop {
+.h1-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -128,7 +128,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h1-tablet {
+.h1-tablet-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -138,7 +138,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h1-mobile {
+.h1-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -148,7 +148,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h1-destkop-liste-d-outils {
+.h1-desktop-liste-d-outils-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -158,7 +158,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h1-tablet-liste-d-outils {
+.h1-tablet-liste-d-outils-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -168,7 +168,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h1-mobile-liste-d-outils {
+.h1-mobile-liste-d-outils-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -178,7 +178,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h2-destkop {
+.h2-desktop-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -188,7 +188,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.h2-mobile {
+.h2-mobile-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -198,7 +198,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.h2-desktop {
+.h2-desktop-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -208,7 +208,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h2-mobile {
+.h2-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -218,7 +218,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h2-destkop {
+.h2-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -228,7 +228,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h2-mobile {
+.h2-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -238,7 +238,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h2-desktop {
+.h2-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -248,7 +248,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h2-mobile {
+.h2-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -258,7 +258,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-destkop {
+.h3-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -268,7 +268,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-tablet {
+.h3-tablet-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -278,7 +278,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-mobile {
+.h3-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -288,7 +288,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-destkop {
+.h3-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -298,7 +298,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-tablet {
+.h3-tablet-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -308,7 +308,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-mobile {
+.h3-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -318,7 +318,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-destkop-liste-des-secteurs {
+.h3-desktop-liste-des-secteurs-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -328,7 +328,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-mobile-liste-des-secteurs {
+.h3-mobile-liste-des-secteurs-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -338,7 +338,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-destkop {
+.h3-desktop-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -348,7 +348,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h3-tablet {
+.h3-tablet-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -358,7 +358,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h3-mobile {
+.h3-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -368,7 +368,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h4-desktop {
+.h4-desktop-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -378,7 +378,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h4-mobile {
+.h4-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -388,7 +388,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h4-destkop {
+.h4-desktop-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -398,7 +398,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h4-mobile {
+.h4-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -408,7 +408,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h4-destkop {
+.h4-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -418,7 +418,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h4-mobile {
+.h4-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -428,7 +428,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h4-destkop {
+.h4-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -438,7 +438,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h4-mobile {
+.h4-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -448,7 +448,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h4-destkop {
+.h4-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -458,7 +458,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h4-mobile {
+.h4-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -468,7 +468,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.big_p-desktop {
+.big_p-desktop-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -478,7 +478,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.big_p-mobile {
+.big_p-mobile-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -488,7 +488,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.big_p-destkop {
+.big_p-desktop-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -498,7 +498,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.big_p-mobile {
+.big_p-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -508,7 +508,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.big_p-destkop {
+.big_p-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -518,7 +518,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.big_p-mobile {
+.big_p-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -528,7 +528,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.little_p-destkop {
+.little_p-desktop-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -538,7 +538,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.little_p-mobile {
+.little_p-mobile-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -548,7 +548,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.little_p-destkop {
+.little_p-desktop {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -558,7 +558,7 @@
   color: var(--unnamed-color-000000);
 }
 
-.little_p-mobile {
+.little_p-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -568,7 +568,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.little_p-destkop {
+.little_p-desktop {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -578,7 +578,7 @@
   color: var(--unnamed-color-000000);
 }
 
-.little_p-mobile {
+.little_p-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -588,7 +588,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.little_p-destkop {
+.little_p-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -598,7 +598,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.little_p-mobile {
+.little_p-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -608,7 +608,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.tag-destkop {
+.tag-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -618,7 +618,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.tag-mobile {
+.tag-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -628,7 +628,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.sectors-destkop {
+.sectors-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -638,7 +638,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.sectors-mobile {
+.sectors-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -648,7 +648,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.menu-desktop {
+.menu-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -658,7 +658,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.menu-tablet {
+.menu-tablet-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -668,7 +668,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.menu-mobile {
+.menu-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -685,136 +685,85 @@ html {
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 * body {
   overflow-x: hidden;
-  font-family: 'II Vorkurs';
+  font-family: "II Vorkurs";
   background-color: var(--unnamed-color-171717);
 }
-
 * body header {
   width: 100%;
   position: fixed;
   z-index: 10;
 }
-
 * body .main-menu-ribbon {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-start;
+  align-items: center;
   border-bottom: 1px solid var(--unnamed-color-4b4b4b);
 }
-
 * body .logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 12.375rem;
   height: 12.375rem;
   background-color: white;
 }
-
 * body .logo .main-menu-logo {
   max-width: 100%;
   opacity: 1;
   background-color: var(--unnamed-color-ffffff);
 }
-
 * body .main-menu-list1 {
   min-width: 50%;
 }
-
 * body .main-menu-list2 {
   max-width: 50%;
 }
-
 * body .main-pages, * body .contact-page {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   list-style-type: none;
 }
-
 * body .main-pages .menu-item a, * body .contact-page .menu-item a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   color: var(--unnamed-color-ffffff);
   text-decoration: none;
 }
-
 * body .main-menu-list2 {
   margin-left: auto;
   margin-right: 15px;
 }
-
 * body .main-pages {
   margin-left: 14.3rem;
 }
-
 * body .contact-page-arrow {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   height: 4.6rem;
   width: 4.6rem;
   border-radius: 50%;
   border: 2px solid var(--unnamed-color-4b4b4b);
 }
-
 * body .contact-page-arrow:hover {
   background-color: var(--unnamed-color-ffffff);
 }
-
 * body .current-menu-item {
   color: var(--font-color-main);
   text-decoration: none;
 }
-
 * body #menu-item-63 a {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 * body main aside {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: flex-end;
+  justify-content: center;
   min-height: 100vh;
   width: 12.375rem;
   border: 1px solid var(--unnamed-color-4b4b4b);
@@ -824,45 +773,30 @@ html {
   top: 0;
   left: 0;
 }
-
 * body main aside nav {
   padding-bottom: 7.5rem;
 }
-
 * body main aside nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   list-style: none;
   font-size: 2rem;
-  font-family: 'II Vorkurs';
+  font-family: "II Vorkurs";
 }
-
 * body main aside nav ul li {
   padding: 2.5rem 5rem;
 }
-
 * body main aside nav ul li a {
   color: var(--unnamed-color-ffffff);
   text-decoration: none;
 }
-
 * body main #section-intro {
   padding: 26.675rem 0 0 26.675rem;
   position: relative;
   width: 100%;
 }
-
 * body main #section-intro h1 {
   margin-bottom: 7.5rem;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-90)/var(--unnamed-line-spacing-90) var(--unnamed-font-family-ii-vorkurs);
@@ -870,40 +804,30 @@ html {
   color: var(--unnamed-color-ffffff);
   text-align: left;
   font-size: 9rem;
-  font-family: 'II Vorkurs';
+  font-family: "II Vorkurs";
   line-height: 9rem;
   letter-spacing: -3.42px;
   color: #FFFFFF;
   opacity: 1;
   max-width: 78.4rem;
 }
-
 * body main #section-intro #front-page-video {
   width: 100%;
   height: auto;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   opacity: 1;
 }
-
 * body main #section-intro #front-page-video img {
   max-width: 100%;
   height: auto;
 }
-
 * body main #section-intro .arrow {
   position: absolute;
   top: 37rem;
   left: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   margin-bottom: -6.5rem;
@@ -913,35 +837,22 @@ html {
   min-width: 23rem;
   min-height: 23rem;
 }
-
 * body main #section-intro .arrow img {
   height: 3.6rem;
   width: 3.6rem;
 }
-
 * body main .intro-text {
   max-width: 100%;
   margin: 14.3rem 0 0 26.675rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-
 * body main .intro-text div {
-  -ms-flex-preferred-size: 33.4rem;
-      flex-basis: 33.4rem;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
+  flex-basis: 33.4rem;
+  flex-shrink: 0;
+  flex-grow: 0;
 }
-
 * body main .intro-text div h3 {
   font-size: 3.4rem;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
@@ -954,7 +865,6 @@ html {
   opacity: 1;
   margin-bottom: 4rem;
 }
-
 * body main .intro-text div ul li {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing-0);
@@ -965,25 +875,22 @@ html {
   color: #FFFFFF;
   opacity: 1;
 }
-
 * body main .intro-text .texte {
   max-width: 33.4rem;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-34)/var(--unnamed-line-spacing-47) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-ffffff);
   text-align: left;
-  font-family: 'II Vorkurs';
+  font-family: "II Vorkurs";
   font-size: 3.4rem;
   letter-spacing: 0px;
   color: #FFFFFF;
   line-break: 4.7rem;
   opacity: 1;
 }
-
 * body main .projet {
   margin: 65rem 0 0 26.675rem;
 }
-
 * body main .projet h2 {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-90)/var(--unnamed-line-spacing-90) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing--3-42);
@@ -994,22 +901,14 @@ html {
   color: var(--unnamed-color-ffffff);
   max-width: 100.6rem;
 }
-
 * body main .projet h2 span {
   color: var(--unnamed-color-ffc33b);
 }
-
 * body main .projet .container {
   max-width: 144.4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 * body main .projet .container p {
   max-width: 71.2rem;
   font-size: 2.4rem;
@@ -1017,44 +916,29 @@ html {
   color: var(--unnamed-color-777777);
   margin-top: 2.36rem;
 }
-
 * body main .projet .container .cards {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-top: 4.72rem;
 }
-
 * body main .projet .container .cards .card {
   width: 21.6rem;
   height: 33.1rem;
   background-color: var(--unnamed-color-212121);
   margin: 1rem 1rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: space-between;
+  flex-direction: column;
 }
-
 * body main .projet .container .cards .card .company-logo {
   margin: 3.9rem 0 0 2.6rem;
   width: 4.415rem;
   height: 4.415rem;
 }
-
 * body main .projet .container .cards .card .company-logo img {
   max-width: 100%;
   max-height: 100%;
 }
-
 * body main .projet .container .cards .card h4 {
   margin: 0 0 3.9rem 2.6rem;
   font-size: 2.4rem;
@@ -1065,64 +949,48 @@ html {
   letter-spacing: 0px;
   color: #FFFFFF;
 }
-
 * body main .projet .container .cards .card h4 span {
   color: var(--unnamed-color-ffc33b);
   font-size: 1.5rem;
 }
-
 * body main .projet .container .cards .card:nth-child(6) {
   border: 1px solid var(--unnamed-color-777777);
   background-color: transparent;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 * body main .projet .container .cards .card:nth-child(6) .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 13rem;
 }
-
 * body main .projet .container .cards .card:nth-child(6) .container h4 {
   font-size: 1.8rem;
   text-align: center;
   line-height: 2.2rem;
   margin: 2rem 0 0 0;
 }
-
 * body main .text-scroll {
   position: relative;
   margin-top: 25rem;
 }
-
 * body main .text-scroll h2 {
   position: absolute;
   white-space: nowrap;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) 135px/216px var(--unnamed-font-family-ii-vorkurs);
   text-align: left;
-  font-family: 'II Vorkurs';
+  font-family: "II Vorkurs";
   font-size: 13.6rem;
-  letter-spacing: -.513rem;
+  letter-spacing: -0.513rem;
   opacity: 1;
   color: var(--unnamed-color-ffffff);
 }
+* body main .page-espaces-section-white {
+  background-color: var(--unnamed-color-ffffff);
+  width: 100%;
+}
+
 /*# sourceMappingURL=display.css.map */
