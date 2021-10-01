@@ -9,22 +9,22 @@
 
 <section class="intro-text">
     <div class="texte"><p>Le plus grand cluster d'entreprises wallon, dédié à l'audiovisuel, aux métiers du digital, au gaming et à l'AR/VR.</p></div>
-    <div class="installation">
-        <h3>Installation à la pointe</h3>
-        <ul>
-            <li>Texte</li>
-            <li>Texte</li>
-            <li>Texte</li>
-        </ul>
-    </div>
-    <div class="lieu-travail">
-        <h3>Plus qu’un lieu de travail</h3>
-        <ul>
-            <li>Texte</li>
-            <li>Texte</li>
-            <li>Texte</li>
-        </ul>
-    </div>
+       <div class="installation">
+           <h3>Installation à la pointe</h3>
+           <ul>
+               <li>Texte</li>
+               <li>Texte</li>
+               <li>Texte</li>
+           </ul>
+       </div>
+       <div class="lieu-travail">
+           <h3>Plus qu’un lieu de travail</h3>
+           <ul>
+               <li>Texte</li>
+               <li>Texte</li>
+               <li>Texte</li>
+           </ul>
+       </div>
 </section>
 
 <div class="text-scroll">

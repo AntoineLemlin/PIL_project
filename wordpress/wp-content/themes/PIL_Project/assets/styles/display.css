@@ -725,15 +725,15 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 12.375rem;
-  height: 12.375rem;
+  width: clamp(10.94rem, 6.44vw, 12.375rem);
+  height: clamp(10.94rem, 6.44vw, 12.375rem);
   background-color: white;
 }
 
 * body .logo .main-menu-logo {
-  max-width: 100%;
+  width: clamp(6.7rem, 3.906vw, 7.5rem);
+  height: clamp(6.7rem, 3.906vw, 7.5rem);
   opacity: 1;
-  background-color: var(--unnamed-color-ffffff);
 }
 
 * body .main-menu-list1 {
@@ -764,7 +764,7 @@ html {
 
 * body .main-menu-list2 {
   margin-left: auto;
-  margin-right: 15px;
+  gap: 1.5rem;
 }
 
 * body .main-pages {
@@ -805,6 +805,26 @@ html {
           align-items: center;
 }
 
+@media only screen and (max-width: 769px) {
+  * body header {
+    position: static;
+  }
+  * body .main-menu-list1, * body .main-menu-list2 {
+    display: none;
+  }
+  * body .main-menu-ribbon {
+    border-bottom-style: none;
+  }
+  * body .logo {
+    width: clamp(7.3rem, 5.698vw, 10.9rem);
+    height: clamp(7.3rem, 5.698vw, 10.9rem);
+    padding: 13px;
+  }
+  * body .logo .main-menu-logo {
+    width: clamp(4.5rem, 3.49vw, 6.7rem);
+  }
+}
+
 * body main aside {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -816,7 +836,7 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   min-height: 100vh;
-  width: 12.375rem;
+  width: clamp(10.94rem, 6.44vw, 12.375rem);
   border: 1px solid var(--unnamed-color-4b4b4b);
   border-top-color: transparent;
   border-left-color: transparent;
@@ -857,44 +877,52 @@ html {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 769px) {
+  * body main aside {
+    display: none;
+  }
+}
+
 * body main #section-intro {
-  padding: 26.675rem 0 0 26.675rem;
+  padding: 26.675rem 0 0 0;
   position: relative;
   width: 100%;
+  margin-left: clamp(7.9rem, 25vw, 26.2rem);
 }
 
 * body main #section-intro h1 {
-  margin-bottom: 7.5rem;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-90)/var(--unnamed-line-spacing-90) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing--3-42);
   color: var(--unnamed-color-ffffff);
   text-align: left;
-  font-size: 9rem;
+  font-size: clamp(7.3rem, 4.68vw, 9rem);
   font-family: 'II Vorkurs';
   line-height: 9rem;
   letter-spacing: -3.42px;
   color: #FFFFFF;
   opacity: 1;
-  max-width: 78.4rem;
+  width: clamp(50.5rem, 40.8vw, 78.4rem);
 }
 
 * body main #section-intro #front-page-video {
-  width: 100%;
+  width: clamp(68.9rem, 86.3vw, 165.7rem);
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
   opacity: 1;
+  text-align: right;
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
 }
 
 * body main #section-intro #front-page-video img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
 * body main #section-intro .arrow {
-  position: absolute;
-  top: 37rem;
-  left: 80%;
+  display: inline-block;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -906,12 +934,13 @@ html {
           justify-content: center;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
-  margin-bottom: -6.5rem;
   z-index: 1;
-  max-height: 27.3rem;
-  max-width: 27.3rem;
-  min-width: 23rem;
-  min-height: 23rem;
+  height: 27.3rem;
+  width: 27.3rem;
+  margin-left: auto;
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+  right: 25%;
 }
 
 * body main #section-intro .arrow img {
@@ -921,7 +950,7 @@ html {
 
 * body main .intro-text {
   max-width: 100%;
-  margin: 14.3rem 0 0 26.675rem;
+  margin: 14.3rem 0 0 clamp(7.9rem, 25vw, 26.2rem);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -930,19 +959,15 @@ html {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 10rem;
 }
 
-* body main .intro-text div {
+* body main .intro-text .installation, * body main .intro-text .lieu-travail {
   -ms-flex-preferred-size: 33.4rem;
       flex-basis: 33.4rem;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
 }
 
-* body main .intro-text div h3 {
+* body main .intro-text .installation h3, * body main .intro-text .lieu-travail h3 {
   font-size: 3.4rem;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing-0);
@@ -955,7 +980,7 @@ html {
   margin-bottom: 4rem;
 }
 
-* body main .intro-text div ul li {
+* body main .intro-text .installation ul li, * body main .intro-text .lieu-travail ul li {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-ffffff);
@@ -967,7 +992,6 @@ html {
 }
 
 * body main .intro-text .texte {
-  max-width: 33.4rem;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-34)/var(--unnamed-line-spacing-47) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-ffffff);
@@ -976,23 +1000,24 @@ html {
   font-size: 3.4rem;
   letter-spacing: 0px;
   color: #FFFFFF;
-  line-break: 4.7rem;
+  line-height: 4.7rem;
   opacity: 1;
+  -ms-flex-preferred-size: 33.4rem;
+      flex-basis: 33.4rem;
 }
 
 * body main .projet {
-  margin: 65rem 0 0 26.675rem;
+  margin: clamp(12.9rem, 19.995vw, 26.2rem) 0 0 26.675rem;
 }
 
 * body main .projet h2 {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-90)/var(--unnamed-line-spacing-90) var(--unnamed-font-family-ii-vorkurs);
-  letter-spacing: var(--unnamed-character-spacing--3-42);
   text-align: left;
   font: normal normal bold 90px/90px II Vorkurs;
   letter-spacing: -3.42px;
   opacity: 1;
   color: var(--unnamed-color-ffffff);
-  max-width: 100.6rem;
+  font-size: clamp(7.3rem, 4.688vw, 9rem);
+  width: clamp(61rem, 52.369vw, 100.6rem);
 }
 
 * body main .projet h2 span {
@@ -1000,7 +1025,7 @@ html {
 }
 
 * body main .projet .container {
-  max-width: 144.4rem;
+  width: clamp(61rem, 75.208vw, 144.4rem);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1025,13 +1050,15 @@ html {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 4.72rem;
+  gap: 1rem;
+  width: 100%;
 }
 
 * body main .projet .container .cards .card {
-  width: 21.6rem;
-  height: 33.1rem;
+  width: clamp(19rem, 11.25vw, 21.6rem);
+  height: clamp(29.1rem, 17.24vw, 33.1rem);
   background-color: var(--unnamed-color-212121);
-  margin: 1rem 1rem;
+  margin: 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1109,20 +1136,53 @@ html {
   margin: 2rem 0 0 0;
 }
 
+@media only screen and (max-width: 769px) {
+  * body main #section-intro, * body main .intro-text, * body main .projet {
+    margin-left: clamp(3.2rem, 4.11vw, 7.9rem);
+  }
+  * body main #section-intro {
+    padding: 0 0 0 0;
+    margin: 12.3rem 0 0 7.9rem;
+  }
+  * body main #section-intro h1 {
+    line-height: 7rem;
+    font-size: clamp(5.2rem, 3.802vw, 7.3rem);
+    width: clamp(31rem, 26.302vw, 50.5rem);
+  }
+}
+
 * body main .text-scroll {
-  position: relative;
+  width: 100%;
   margin-top: 25rem;
+  overflow-x: hidden;
 }
 
 * body main .text-scroll h2 {
-  position: absolute;
   white-space: nowrap;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) 135px/216px var(--unnamed-font-family-ii-vorkurs);
-  text-align: left;
   font-family: 'II Vorkurs';
-  font-size: 13.6rem;
+  font-size: clamp(10.8rem, 7.083vw, 13.6rem);
   letter-spacing: -.513rem;
   opacity: 1;
-  color: var(--unnamed-color-ffffff);
+  color: white;
+  -webkit-animation: 20s slide 1s linear infinite;
+          animation: 20s slide 1s linear infinite;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+@-webkit-keyframes slide {
+  to {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+}
+
+@keyframes slide {
+  to {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
 }
 /*# sourceMappingURL=display.css.map */
