@@ -1,63 +1,106 @@
-// TEST
+/* Order margin padding haut | droit | bas | gauche */
 footer {
   display: flex;
   color: #ffffff;
-  border-top: 1px solid white;
+  border-top: 0.1rem solid #ffffff;
   max-width: 75%;
-  margin-left: 25rem;
+  margin: auto;
+  // Left part with adress, number, title.
   .contact {
-    padding: 0.8rem;
     display: flex;
-    border-right: 1px solid white;
-    justify-content: space-between;
-    align-items: center;
-    flex-basis: 33%;
-    .titleAdress {
+    border-right: 0.1rem solid #ffffff;
+    padding: 4rem 5rem 2rem 0rem;
+    .titleAddress {
       display: flex;
+      justify-content: space-between;
       flex-direction: column;
-      font-size: 15px;
+      font-size: 1.5rem;
+      margin-right: 4rem;
+      .address {
+        white-space: nowrap;
+        font-weight: lighter;
+        a {
+          color: #ffffff;
+          text-decoration: none;
+          &:visited {
+            color: #ffffff;
+          }
+        }
+      }
     }
     .titlePole {
-      font-size: 20px;
-      width: 10.7rem;
-      margin-bottom: 8rem;
-      color: white;
-      line-height: 3rem;
-      margin-top: 3rem;
+      font-size: 2rem;
+      max-width: 10.7rem;
+      color: #ffffff;
+      // line-height: 3rem;
+    }
+    .phone {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem 3rem 4rem 0rem;
+      min-width: 15rem !important;
+      height: 15rem;
+      border: 0.1rem solid rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      .number {
+        font-size: 1.5rem;
+        white-space: nowrap;
+        font-weight: lighter;
+        a {
+          color: #ffffff;
+          text-decoration: none;
+          &:visited {
+            color: #ffffff;
+          }
+        }
+      }
     }
   }
-  .phone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15rem;
-    height: 15rem;
-    border: 1px solid white;
-    border-radius: 50%;
-    margin: 0rem 1rem 0rem 1rem;
-    .number {
-      white-space: nowrap;
-    }
-  }
+  // Left part menu, copyright, made by.
   .copyright {
     display: flex;
-    flex-basis: 66%;
+    flex-basis: 100%;
+    justify-content: space-between;
+    padding: 4rem 0rem 2rem 5rem;
+    color: #656565;
     .menuCredits {
+      font-size: 1.5rem;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      margin: 1rem 1rem 1rem 1rem;
+      h6 {
+        font-weight: lighter;
+      }
+    }
+    .madeBy {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      font-size: 1.5rem;
+      h6 {
+        font-weight: lighter;
+      }
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: lighter;
+        &:visited {
+          color: #ffffff;
+        }
+      }
     }
     ul {
       list-style-type: none;
       li {
-        margin: 1rem 1rem 1rem 0rem;
+        font-size: 2.2rem;
         white-space: nowrap;
+        margin-bottom: 2.5rem;
         a {
-          color: white;
+          color: #ffffff;
           text-decoration: none;
           &:visited {
-            color: white;
+            color: #ffffff;
           }
         }
       }

@@ -20,18 +20,27 @@ $designer = get_field('designer', 'options');
 
 <footer>
     <div class="contact">
-        <div class="titleAdress">
-            <h4 class="titlePole"><?php echo $title; ?></h4>
-            <a href="mailto:<?php echo $mail; ?>"><?php echo $mail; ?></a>
-            <p>
-                <?php echo $street_name . ',' ?>
-                <?php echo $street_number; ?>
-            </p>
-            <p>
-                <?php echo $postal_code . ' '; ?>
-                <?php echo $city  . ', '; ?>
-                <?php echo $country; ?>
-            </p>
+        <div class="titleAddress">
+            <div class="title">
+                <h4 class="titlePole">
+                    <?php echo $title; ?>
+                </h4>
+            </div>
+            <div class="address">
+                <a href="mailto:<?php echo $mail; ?>">
+                    <?php echo $mail; ?>
+                </a>
+
+                <p>
+                    <?php echo $street_name . ',' ?>
+                    <?php echo $street_number; ?>
+                </p>
+                <p>
+                    <?php echo $postal_code . ' '; ?>
+                    <?php echo $city  . ', '; ?>
+                    <?php echo $country; ?>
+                </p>
+            </div>
         </div>
         <div class="phone">
             <div class="number"><a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a></div>
