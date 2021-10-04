@@ -49,7 +49,17 @@
         img{
             height: 3.6rem;
             width: 3.6rem;
+            transition: transform 0.2s linear;
+
+            &:hover{
+                transform: translateY(2rem);
+            }
         }
+
+        a{
+            text-decoration: none;
+        }
+
     
     }
 
@@ -107,7 +117,7 @@
 }
 
 .projet{
-    margin: clamp(12.9rem, 19.995vw, 26.2rem) 0 0 26.675rem;
+    margin: clamp(12.9rem, 19.995vw, 26.2rem) 0 clamp(12.9rem, 19.995vw, 26.2rem) 26.675rem;
 
     h2{
         text-align: left;
@@ -207,6 +217,128 @@
 
 }
 
+.formations{
+    padding-left: 26rem;
+    background: white;
+    height: auto;
+    width: 100%;
+    .container{
+        display: flex;
+        align-items: flex-start;
+        gap: 12.35rem;
+        img{
+        width: 56.7rem;
+        height: auto;
+        transform: translateY(-12.35rem);
+    }
+
+    .texte-formations{
+        padding-bottom: 17.6rem;
+        h2{
+        margin-top: 12.6rem;
+        margin-bottom: 3.9rem;
+        width: 68.8rem;
+        font-family: 'II Vorkurs';
+        font-size: 9rem;
+        letter-spacing: -3.42px;
+        line-height: 9rem;
+        color: #171717;
+        opacity: 1;
+        }
+    
+        h4{
+            text-align: left;
+            font: normal normal 300 24px/38px II Vorkurs;
+            letter-spacing: 0px;
+            color: #171717;
+            opacity: 0.98;
+            width: 57rem;
+        }
+    
+        p{
+            margin: 3.9rem 0;
+            text-align: left;
+            font: normal normal 300 20px/38px II Vorkurs;
+            letter-spacing: 0.4px;
+            color: #171717;
+            opacity: 1;
+            width: 57rem;
+        }
+
+        ul{
+            width: 65.7rem;
+            height: 14.4rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-bottom: 7.2rem;
+        }
+        ul li {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--unnamed-color-171717);
+            text-align: left;
+            font: normal normal 300 18px/26px II Vorkurs;
+            letter-spacing: 0px;
+            color: #171717;
+            opacity: 1;
+            list-style-type: none;
+        }
+
+        a{
+            margin-bottom: 17.7rem;
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--unnamed-color-171717);
+            text-align: left;
+            font: normal normal medium 18px/26px II Vorkurs;
+            letter-spacing: 0px;
+            color: #171717;
+            opacity: 1;
+            border: 1px solid #171717;
+            border-radius: 26px;
+            padding: 1.2rem 4.6rem 1.3rem 2.9rem;
+            text-decoration: none;
+                    }
+                
+    }
+
+}
+}
+
+.entreprises{
+    margin-left: 26.5rem;
+    h3{
+        font-family: 'II Vorkurs';
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+        font-weight: bold;
+        color: #FFFFFF;
+        margin: 8.824rem 0 4.9rem 0;
+    }
+
+    ul{
+        width: 32.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 8.3rem;
+        height: 30rem;
+        
+        li{
+            font-size: 1.8rem;
+            list-style-type: none;
+            width: 33.4rem;
+            text-align: left;
+            color: #FFFFFF;
+            font-weight: light;
+            font-family: 'II Vorkurs';      
+            margin-bottom: 1.7rem;
+            opacity: 0.5;
+        }
+    }
+}
+
 @media only screen and (max-width: 769px){
 
     #section-intro, .intro-text, .projet{
@@ -216,10 +348,52 @@
     #section-intro{
         padding: 0 0 0 0;
         margin: 12.3rem 0 0 7.9rem;
+
+        #front-page-video{
+            transform: translateY(-40%);
+        }
+
         h1{
             line-height: 7rem;
             font-size: clamp(5.2rem,3.802vw,7.3rem);
             width: clamp(31rem, 26.302vw, 50.5rem);
+        }
+    }
+
+    .intro-text{
+        margin-top: -2rem;
+        justify-content: center;
+        .texte{
+            flex-basis: 90%;
+        }
+
+        .installation, .lieu-travail{
+            flex-basis: 25%;
+        }
+    }
+
+    .projet{
+        // margin: auto;
+    }
+
+    .formations{
+        padding-left: 0;
+        .container{
+            flex-direction: column;
+            align-items: center;
+
+            .texte-formations{
+                padding-left: 8rem;
+                h2{
+                    margin-top: 0rem;
+                }
+
+            }
+
+            img{
+                width: 60.9rem;
+                transform: translateY(-4rem);
+            }
         }
     }
 }
