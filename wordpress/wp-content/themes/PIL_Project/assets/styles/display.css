@@ -773,6 +773,10 @@ html {
   margin-left: 14.3rem;
 }
 
+* body .main-pages li a {
+  font-size: 1.8rem;
+}
+
 * body .contact-page-arrow {
   display: -webkit-box;
   display: -ms-flexbox;
