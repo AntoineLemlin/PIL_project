@@ -3,7 +3,7 @@ aside{
     align-items: flex-end;
     justify-content: center;
     min-height: 100vh;
-    width: 12.375rem;
+    width: clamp(10.94rem, 6.44vw, 12.375rem);
     border: 1px solid var(--unnamed-color-4b4b4b);
     border-top-color: transparent;
     border-left-color: transparent;
@@ -33,4 +33,10 @@ nav{
         }
     }
 }
+}
+
+@media only screen and (max-width: 769px) {
+    aside{
+        display: none;
+    }
 }

@@ -1,55 +1,65 @@
 #section-intro{
-    padding: 26.675rem 0 0 26.675rem;
+    padding: 26.675rem 0 0 0;
     position: relative;
     width: 100%;
+    margin-left: clamp(7.9rem, 25vw, 26.2rem);
     h1{
-        margin-bottom: 7.5rem;
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-90)/var(--unnamed-line-spacing-90) var(--unnamed-font-family-ii-vorkurs);
         letter-spacing: var(--unnamed-character-spacing--3-42);
         color: var(--unnamed-color-ffffff);
         text-align: left;
-        font-size: 9rem;
+        font-size: clamp(7.3rem, 4.68vw, 9rem);
         font-family: 'II Vorkurs';
         line-height: 9rem;
         letter-spacing: -3.42px;
         color: #FFFFFF;
         opacity: 1;
-
-        max-width: 78.4rem;
+        width: clamp(50.5rem, 40.8vw, 78.4rem);
     }
     
     #front-page-video{
-       width: 100%;
+       width: clamp(68.9rem, 86.3vw, 165.7rem);
        height: auto;
        object-fit: contain;
         opacity: 1;
+        text-align: right;
+        transform: translateY(-20%);
 
         img{
-            max-width: 100%;
+            width: 100%;
             height: auto;
         }
     }
 
     .arrow{
-        position: absolute;
-        top: 37rem;
-        left: 80%;
+        display: inline-block;
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
+
         border: 1px solid rgba($color:white, $alpha: 0.2);
         border-radius: 50%;
-        margin-bottom: -6.5rem;
         z-index: 1;
-        max-height: 27.3rem;
-        max-width: 27.3rem;
-        min-width: 23rem;
-        min-height: 23rem;
-
+        height: 27.3rem;
+        width: 27.3rem;
+        margin-left: auto;
+        transform: translateY(-10%);
+        right: 25%;
         img{
             height: 3.6rem;
             width: 3.6rem;
+            transition: transform 0.2s linear;
+
+            &:hover{
+                transform: translateY(2rem);
+            }
         }
+
+        a{
+            text-decoration: none;
+        }
+
     
     }
 
@@ -57,15 +67,15 @@
 
 .intro-text{
     max-width: 100%;
-    margin: 14.3rem 0 0 26.675rem;
+    margin: 14.3rem 0 0 clamp(7.9rem, 25vw, 26.2rem);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap:10rem;
+    
 
-    div{
+    .installation, .lieu-travail{
         flex-basis:33.4rem;
-        flex-shrink: 0;
-        flex-grow: 0;
         h3{
             font-size: 3.4rem;
             font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
@@ -91,7 +101,6 @@
         }
     }
     .texte{
-        max-width: 33.4rem;
         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-34)/var(--unnamed-line-spacing-47) var(--unnamed-font-family-ii-vorkurs);
         letter-spacing: var(--unnamed-character-spacing-0);
         color: var(--unnamed-color-ffffff);
@@ -100,25 +109,24 @@
         font-size: 3.4rem;
         letter-spacing: 0px;
         color: #FFFFFF;
-        line-break: 4.7rem;
+        line-height: 4.7rem;
         opacity: 1;
+        flex-basis: 33.4rem;
     }
 
 }
 
 .projet{
-    margin: 65rem 0 0 26.675rem;
+    margin: clamp(12.9rem, 19.995vw, 26.2rem) 0 clamp(12.9rem, 19.995vw, 26.2rem) 26.675rem;
 
     h2{
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-90)/var(--unnamed-line-spacing-90) var(--unnamed-font-family-ii-vorkurs);
-        letter-spacing: var(--unnamed-character-spacing--3-42);
         text-align: left;
         font: normal normal bold 90px/90px II Vorkurs;
         letter-spacing: -3.42px;
         opacity: 1;
         color: var(--unnamed-color-ffffff);
-
-        max-width: 100.6rem;
+        font-size: clamp(7.3rem, 4.688vw, 9rem);
+        width: clamp(61rem, 52.369vw ,100.6rem);
 
         span{
             color: var(--unnamed-color-ffc33b);
@@ -126,7 +134,7 @@
     }
 
     .container{
-        max-width: 144.4rem;
+        width: clamp(61rem, 75.208vw, 144.4rem);
         display: flex;
         flex-direction: column;
 
@@ -142,11 +150,13 @@
             display: flex;
             flex-wrap: wrap;
             margin-top: 4.72rem;
+            gap: 1rem;
+            width: 100%;
             .card{
-                width: 21.6rem;
-                height: 33.1rem;
+                width: clamp(19rem, 11.250vw ,21.6rem);
+                height: clamp(29.1rem, 17.240vw ,33.1rem);
                 background-color: var(--unnamed-color-212121);
-                margin: 1rem 1rem;
+                margin: 0 0;
                 display: flex;
                 justify-content: space-between;
                 flex-direction: column;
@@ -205,4 +215,185 @@
         }
     }
 
+}
+
+.formations{
+    padding-left: 26rem;
+    background: white;
+    height: auto;
+    width: 100%;
+    .container{
+        display: flex;
+        align-items: flex-start;
+        gap: 12.35rem;
+        img{
+        width: 56.7rem;
+        height: auto;
+        transform: translateY(-12.35rem);
+    }
+
+    .texte-formations{
+        padding-bottom: 17.6rem;
+        h2{
+        margin-top: 12.6rem;
+        margin-bottom: 3.9rem;
+        width: 68.8rem;
+        font-family: 'II Vorkurs';
+        font-size: 9rem;
+        letter-spacing: -3.42px;
+        line-height: 9rem;
+        color: #171717;
+        opacity: 1;
+        }
+    
+        h4{
+            text-align: left;
+            font: normal normal 300 24px/38px II Vorkurs;
+            letter-spacing: 0px;
+            color: #171717;
+            opacity: 0.98;
+            width: 57rem;
+        }
+    
+        p{
+            margin: 3.9rem 0;
+            text-align: left;
+            font: normal normal 300 20px/38px II Vorkurs;
+            letter-spacing: 0.4px;
+            color: #171717;
+            opacity: 1;
+            width: 57rem;
+        }
+
+        ul{
+            width: 65.7rem;
+            height: 14.4rem;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            margin-bottom: 7.2rem;
+        }
+        ul li {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--unnamed-color-171717);
+            text-align: left;
+            font: normal normal 300 18px/26px II Vorkurs;
+            letter-spacing: 0px;
+            color: #171717;
+            opacity: 1;
+            list-style-type: none;
+        }
+
+        a{
+            margin-bottom: 17.7rem;
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--unnamed-color-171717);
+            text-align: left;
+            font: normal normal medium 18px/26px II Vorkurs;
+            letter-spacing: 0px;
+            color: #171717;
+            opacity: 1;
+            border: 1px solid #171717;
+            border-radius: 26px;
+            padding: 1.2rem 4.6rem 1.3rem 2.9rem;
+            text-decoration: none;
+                    }
+                
+    }
+
+}
+}
+
+.entreprises{
+    margin-left: 26.5rem;
+    h3{
+        font-family: 'II Vorkurs';
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+        font-weight: bold;
+        color: #FFFFFF;
+        margin: 8.824rem 0 4.9rem 0;
+    }
+
+    ul{
+        width: 32.5rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 8.3rem;
+        height: 30rem;
+        
+        li{
+            font-size: 1.8rem;
+            list-style-type: none;
+            width: 33.4rem;
+            text-align: left;
+            color: #FFFFFF;
+            font-weight: light;
+            font-family: 'II Vorkurs';      
+            margin-bottom: 1.7rem;
+            opacity: 0.5;
+        }
+    }
+}
+
+@media only screen and (max-width: 769px){
+
+    #section-intro, .intro-text, .projet{
+        margin-left: clamp(3.2rem, 4.11vw, 7.9rem);
+        }
+
+    #section-intro{
+        padding: 0 0 0 0;
+        margin: 12.3rem 0 0 7.9rem;
+
+        #front-page-video{
+            transform: translateY(-40%);
+        }
+
+        h1{
+            line-height: 7rem;
+            font-size: clamp(5.2rem,3.802vw,7.3rem);
+            width: clamp(31rem, 26.302vw, 50.5rem);
+        }
+    }
+
+    .intro-text{
+        margin-top: -2rem;
+        justify-content: center;
+        .texte{
+            flex-basis: 90%;
+        }
+
+        .installation, .lieu-travail{
+            flex-basis: 25%;
+        }
+    }
+
+    .projet{
+        // margin: auto;
+    }
+
+    .formations{
+        padding-left: 0;
+        .container{
+            flex-direction: column;
+            align-items: center;
+
+            .texte-formations{
+                padding-left: 8rem;
+                h2{
+                    margin-top: 0rem;
+                }
+
+            }
+
+            img{
+                width: 60.9rem;
+                transform: translateY(-4rem);
+            }
+        }
+    }
 }

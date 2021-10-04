@@ -58,7 +58,7 @@
 }
 
 /* Character Styles */
-.h1-destkop {
+.h1-desktop-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -68,7 +68,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.h1-tablet {
+.h1-tablet-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -78,7 +78,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.h1-mobile {
+.h1-mobile-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -88,7 +88,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.h1-destkop {
+.h1-desktop-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -98,7 +98,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h1-tablet {
+.h1-tablet-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -108,7 +108,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h1-mobile {
+.h1-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -118,7 +118,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h1-destkop {
+.h1-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -128,7 +128,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h1-tablet {
+.h1-tablet-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -138,7 +138,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h1-mobile {
+.h1-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -148,7 +148,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h1-destkop-liste-d-outils {
+.h1-desktop-liste-d-outils-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -158,7 +158,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h1-tablet-liste-d-outils {
+.h1-tablet-liste-d-outils-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -168,7 +168,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h1-mobile-liste-d-outils {
+.h1-mobile-liste-d-outils-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -178,7 +178,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h2-destkop {
+.h2-desktop-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -188,7 +188,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.h2-mobile {
+.h2-mobile-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -198,7 +198,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.h2-desktop {
+.h2-desktop-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -208,7 +208,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h2-mobile {
+.h2-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -218,7 +218,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h2-destkop {
+.h2-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -228,7 +228,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h2-mobile {
+.h2-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -238,7 +238,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h2-desktop {
+.h2-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -248,7 +248,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h2-mobile {
+.h2-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -258,7 +258,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-destkop {
+.h3-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -268,7 +268,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-tablet {
+.h3-tablet-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -278,7 +278,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-mobile {
+.h3-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -288,7 +288,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-destkop {
+.h3-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -298,7 +298,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-tablet {
+.h3-tablet-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -308,7 +308,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-mobile {
+.h3-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -318,7 +318,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-destkop-liste-des-secteurs {
+.h3-desktop-liste-des-secteurs-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -328,7 +328,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-mobile-liste-des-secteurs {
+.h3-mobile-liste-des-secteurs-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -338,7 +338,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h3-destkop {
+.h3-desktop-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -348,7 +348,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h3-tablet {
+.h3-tablet-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -358,7 +358,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h3-mobile {
+.h3-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -368,7 +368,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h4-desktop {
+.h4-desktop-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -378,7 +378,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h4-mobile {
+.h4-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -388,7 +388,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h4-destkop {
+.h4-desktop-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -398,7 +398,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h4-mobile {
+.h4-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -408,7 +408,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.h4-destkop {
+.h4-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -418,7 +418,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h4-mobile {
+.h4-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-bold);
@@ -428,7 +428,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h4-destkop {
+.h4-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -438,7 +438,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h4-mobile {
+.h4-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -448,7 +448,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h4-destkop {
+.h4-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -458,7 +458,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.h4-mobile {
+.h4-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -468,7 +468,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.big_p-desktop {
+.big_p-desktop-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -478,7 +478,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.big_p-mobile {
+.big_p-mobile-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -488,7 +488,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.big_p-destkop {
+.big_p-desktop-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -498,7 +498,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.big_p-mobile {
+.big_p-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -508,7 +508,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.big_p-destkop {
+.big_p-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -518,7 +518,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.big_p-mobile {
+.big_p-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -528,7 +528,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.little_p-destkop {
+.little_p-desktop-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -538,7 +538,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.little_p-mobile {
+.little_p-mobile-orange {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -548,7 +548,7 @@
   color: var(--unnamed-color-ffc33b);
 }
 
-.little_p-destkop {
+.little_p-desktop {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -558,7 +558,7 @@
   color: var(--unnamed-color-000000);
 }
 
-.little_p-mobile {
+.little_p-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -568,7 +568,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.little_p-destkop {
+.little_p-desktop {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -578,7 +578,7 @@
   color: var(--unnamed-color-000000);
 }
 
-.little_p-mobile {
+.little_p-mobile-positive {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -588,7 +588,7 @@
   color: var(--unnamed-color-171717);
 }
 
-.little_p-destkop {
+.little_p-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -598,7 +598,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.little_p-mobile {
+.little_p-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -608,7 +608,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.tag-destkop {
+.tag-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -618,7 +618,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.tag-mobile {
+.tag-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -628,7 +628,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.sectors-destkop {
+.sectors-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -638,7 +638,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.sectors-mobile {
+.sectors-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-300);
@@ -648,7 +648,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.menu-desktop {
+.menu-desktop-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -658,7 +658,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.menu-tablet {
+.menu-tablet-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -668,7 +668,7 @@
   color: var(--unnamed-color-ffffff);
 }
 
-.menu-mobile {
+.menu-mobile-negative {
   font-family: var(--unnamed-font-family-ii-vorkurs);
   font-style: var(--unnamed-font-style-normal);
   font-weight: var(--unnamed-font-weight-medium);
@@ -680,6 +680,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -690,12 +691,7 @@ html {
 }
 
 * body {
-<<<<<<< HEAD
-  overflow-x: hidden;
-  font-family: 'II Vorkurs';
-=======
   font-family: "II Vorkurs";
->>>>>>> footer
   background-color: var(--unnamed-color-171717);
   overflow-x: hidden;
   /* Order margin padding haut | droit | bas | gauche */
@@ -731,15 +727,15 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 12.375rem;
-  height: 12.375rem;
+  width: clamp(10.94rem, 6.44vw, 12.375rem);
+  height: clamp(10.94rem, 6.44vw, 12.375rem);
   background-color: white;
 }
 
 * body .logo .main-menu-logo {
-  max-width: 100%;
+  width: clamp(6.7rem, 3.906vw, 7.5rem);
+  height: clamp(6.7rem, 3.906vw, 7.5rem);
   opacity: 1;
-  background-color: var(--unnamed-color-ffffff);
 }
 
 * body .main-menu-list1 {
@@ -770,7 +766,7 @@ html {
 
 * body .main-menu-list2 {
   margin-left: auto;
-  margin-right: 15px;
+  gap: 1.5rem;
 }
 
 * body .main-pages {
@@ -811,6 +807,26 @@ html {
           align-items: center;
 }
 
+@media only screen and (max-width: 769px) {
+  * body header {
+    position: static;
+  }
+  * body .main-menu-list1, * body .main-menu-list2 {
+    display: none;
+  }
+  * body .main-menu-ribbon {
+    border-bottom-style: none;
+  }
+  * body .logo {
+    width: clamp(7.3rem, 5.698vw, 10.9rem);
+    height: clamp(7.3rem, 5.698vw, 10.9rem);
+    padding: 13px;
+  }
+  * body .logo .main-menu-logo {
+    width: clamp(4.5rem, 3.49vw, 6.7rem);
+  }
+}
+
 * body main aside {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -822,7 +838,7 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   min-height: 100vh;
-  width: 12.375rem;
+  width: clamp(10.94rem, 6.44vw, 12.375rem);
   border: 1px solid var(--unnamed-color-4b4b4b);
   border-top-color: transparent;
   border-left-color: transparent;
@@ -864,44 +880,52 @@ html {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 769px) {
+  * body main aside {
+    display: none;
+  }
+}
+
 * body main #section-intro {
-  padding: 26.675rem 0 0 26.675rem;
+  padding: 26.675rem 0 0 0;
   position: relative;
   width: 100%;
+  margin-left: clamp(7.9rem, 25vw, 26.2rem);
 }
 
 * body main #section-intro h1 {
-  margin-bottom: 7.5rem;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-90)/var(--unnamed-line-spacing-90) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing--3-42);
   color: var(--unnamed-color-ffffff);
   text-align: left;
-  font-size: 9rem;
+  font-size: clamp(7.3rem, 4.68vw, 9rem);
   font-family: 'II Vorkurs';
   line-height: 9rem;
   letter-spacing: -3.42px;
   color: #FFFFFF;
   opacity: 1;
-  max-width: 78.4rem;
+  width: clamp(50.5rem, 40.8vw, 78.4rem);
 }
 
 * body main #section-intro #front-page-video {
-  width: 100%;
+  width: clamp(68.9rem, 86.3vw, 165.7rem);
   height: auto;
   -o-object-fit: contain;
      object-fit: contain;
   opacity: 1;
+  text-align: right;
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
 }
 
 * body main #section-intro #front-page-video img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
 * body main #section-intro .arrow {
-  position: absolute;
-  top: 37rem;
-  left: 80%;
+  display: inline-block;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -913,22 +937,36 @@ html {
           justify-content: center;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
-  margin-bottom: -6.5rem;
   z-index: 1;
-  max-height: 27.3rem;
-  max-width: 27.3rem;
-  min-width: 23rem;
-  min-height: 23rem;
+  height: 27.3rem;
+  width: 27.3rem;
+  margin-left: auto;
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+  right: 25%;
 }
 
 * body main #section-intro .arrow img {
   height: 3.6rem;
   width: 3.6rem;
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+
+* body main #section-intro .arrow img:hover {
+  -webkit-transform: translateY(2rem);
+          transform: translateY(2rem);
+}
+
+* body main #section-intro .arrow a {
+  text-decoration: none;
 }
 
 * body main .intro-text {
   max-width: 100%;
-  margin: 14.3rem 0 0 26.675rem;
+  margin: 14.3rem 0 0 clamp(7.9rem, 25vw, 26.2rem);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -937,19 +975,15 @@ html {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 10rem;
 }
 
-* body main .intro-text div {
+* body main .intro-text .installation, * body main .intro-text .lieu-travail {
   -ms-flex-preferred-size: 33.4rem;
       flex-basis: 33.4rem;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
 }
 
-* body main .intro-text div h3 {
+* body main .intro-text .installation h3, * body main .intro-text .lieu-travail h3 {
   font-size: 3.4rem;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing-0);
@@ -962,7 +996,7 @@ html {
   margin-bottom: 4rem;
 }
 
-* body main .intro-text div ul li {
+* body main .intro-text .installation ul li, * body main .intro-text .lieu-travail ul li {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-ffffff);
@@ -974,7 +1008,6 @@ html {
 }
 
 * body main .intro-text .texte {
-  max-width: 33.4rem;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-34)/var(--unnamed-line-spacing-47) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-ffffff);
@@ -983,23 +1016,24 @@ html {
   font-size: 3.4rem;
   letter-spacing: 0px;
   color: #FFFFFF;
-  line-break: 4.7rem;
+  line-height: 4.7rem;
   opacity: 1;
+  -ms-flex-preferred-size: 33.4rem;
+      flex-basis: 33.4rem;
 }
 
 * body main .projet {
-  margin: 65rem 0 0 26.675rem;
+  margin: clamp(12.9rem, 19.995vw, 26.2rem) 0 clamp(12.9rem, 19.995vw, 26.2rem) 26.675rem;
 }
 
 * body main .projet h2 {
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-90)/var(--unnamed-line-spacing-90) var(--unnamed-font-family-ii-vorkurs);
-  letter-spacing: var(--unnamed-character-spacing--3-42);
   text-align: left;
   font: normal normal bold 90px/90px II Vorkurs;
   letter-spacing: -3.42px;
   opacity: 1;
   color: var(--unnamed-color-ffffff);
-  max-width: 100.6rem;
+  font-size: clamp(7.3rem, 4.688vw, 9rem);
+  width: clamp(61rem, 52.369vw, 100.6rem);
 }
 
 * body main .projet h2 span {
@@ -1007,7 +1041,7 @@ html {
 }
 
 * body main .projet .container {
-  max-width: 144.4rem;
+  width: clamp(61rem, 75.208vw, 144.4rem);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1032,13 +1066,15 @@ html {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-top: 4.72rem;
+  gap: 1rem;
+  width: 100%;
 }
 
 * body main .projet .container .cards .card {
-  width: 21.6rem;
-  height: 33.1rem;
+  width: clamp(19rem, 11.25vw, 21.6rem);
+  height: clamp(29.1rem, 17.24vw, 33.1rem);
   background-color: var(--unnamed-color-212121);
-  margin: 1rem 1rem;
+  margin: 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1116,21 +1152,237 @@ html {
   margin: 2rem 0 0 0;
 }
 
+* body main .formations {
+  padding-left: 26rem;
+  background: white;
+  height: auto;
+  width: 100%;
+}
+
+* body main .formations .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 12.35rem;
+}
+
+* body main .formations .container img {
+  width: 56.7rem;
+  height: auto;
+  -webkit-transform: translateY(-12.35rem);
+          transform: translateY(-12.35rem);
+}
+
+* body main .formations .container .texte-formations {
+  padding-bottom: 17.6rem;
+}
+
+* body main .formations .container .texte-formations h2 {
+  margin-top: 12.6rem;
+  margin-bottom: 3.9rem;
+  width: 68.8rem;
+  font-family: 'II Vorkurs';
+  font-size: 9rem;
+  letter-spacing: -3.42px;
+  line-height: 9rem;
+  color: #171717;
+  opacity: 1;
+}
+
+* body main .formations .container .texte-formations h4 {
+  text-align: left;
+  font: normal normal 300 24px/38px II Vorkurs;
+  letter-spacing: 0px;
+  color: #171717;
+  opacity: 0.98;
+  width: 57rem;
+}
+
+* body main .formations .container .texte-formations p {
+  margin: 3.9rem 0;
+  text-align: left;
+  font: normal normal 300 20px/38px II Vorkurs;
+  letter-spacing: 0.4px;
+  color: #171717;
+  opacity: 1;
+  width: 57rem;
+}
+
+* body main .formations .container .texte-formations ul {
+  width: 65.7rem;
+  height: 14.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 7.2rem;
+}
+
+* body main .formations .container .texte-formations ul li {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-171717);
+  text-align: left;
+  font: normal normal 300 18px/26px II Vorkurs;
+  letter-spacing: 0px;
+  color: #171717;
+  opacity: 1;
+  list-style-type: none;
+}
+
+* body main .formations .container .texte-formations a {
+  margin-bottom: 17.7rem;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-171717);
+  text-align: left;
+  font: normal normal medium 18px/26px II Vorkurs;
+  letter-spacing: 0px;
+  color: #171717;
+  opacity: 1;
+  border: 1px solid #171717;
+  border-radius: 26px;
+  padding: 1.2rem 4.6rem 1.3rem 2.9rem;
+  text-decoration: none;
+}
+
+* body main .entreprises {
+  margin-left: 26.5rem;
+}
+
+* body main .entreprises h3 {
+  font-family: 'II Vorkurs';
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  margin: 8.824rem 0 4.9rem 0;
+}
+
+* body main .entreprises ul {
+  width: 32.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 8.3rem;
+  height: 30rem;
+}
+
+* body main .entreprises ul li {
+  font-size: 1.8rem;
+  list-style-type: none;
+  width: 33.4rem;
+  text-align: left;
+  color: #FFFFFF;
+  font-weight: light;
+  font-family: 'II Vorkurs';
+  margin-bottom: 1.7rem;
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 769px) {
+  * body main #section-intro, * body main .intro-text, * body main .projet {
+    margin-left: clamp(3.2rem, 4.11vw, 7.9rem);
+  }
+  * body main #section-intro {
+    padding: 0 0 0 0;
+    margin: 12.3rem 0 0 7.9rem;
+  }
+  * body main #section-intro #front-page-video {
+    -webkit-transform: translateY(-40%);
+            transform: translateY(-40%);
+  }
+  * body main #section-intro h1 {
+    line-height: 7rem;
+    font-size: clamp(5.2rem, 3.802vw, 7.3rem);
+    width: clamp(31rem, 26.302vw, 50.5rem);
+  }
+  * body main .intro-text {
+    margin-top: -2rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  * body main .intro-text .texte {
+    -ms-flex-preferred-size: 90%;
+        flex-basis: 90%;
+  }
+  * body main .intro-text .installation, * body main .intro-text .lieu-travail {
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+  }
+  * body main .formations {
+    padding-left: 0;
+  }
+  * body main .formations .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  * body main .formations .container .texte-formations {
+    padding-left: 8rem;
+  }
+  * body main .formations .container .texte-formations h2 {
+    margin-top: 0rem;
+  }
+  * body main .formations .container img {
+    width: 60.9rem;
+    -webkit-transform: translateY(-4rem);
+            transform: translateY(-4rem);
+  }
+}
+
 * body main .text-scroll {
-  position: relative;
+  width: 100%;
   margin-top: 25rem;
+  overflow-x: hidden;
 }
 
 * body main .text-scroll h2 {
-  position: absolute;
   white-space: nowrap;
-  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) 135px/216px var(--unnamed-font-family-ii-vorkurs);
-  text-align: left;
   font-family: 'II Vorkurs';
-  font-size: 13.6rem;
+  font-size: clamp(10.8rem, 7.083vw, 13.6rem);
   letter-spacing: -.513rem;
   opacity: 1;
-  color: var(--unnamed-color-ffffff);
+  color: white;
+  -webkit-animation: 20s slide 1s linear infinite;
+          animation: 20s slide 1s linear infinite;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+@-webkit-keyframes slide {
+  to {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
+}
+
+@keyframes slide {
+  to {
+    -webkit-transform: translateX(-150%);
+            transform: translateX(-150%);
+  }
 }
 
 * body footer {

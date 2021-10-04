@@ -1,40 +1,38 @@
 <?php get_header(); ?>
 <main>
-    <?php get_template_part('./template_parts/sidebar'); ?>
-    <section id="section-intro">
-        <h1>Espaces pour industries créatives</h1>
-        <div class="arrow"><img src="<?php bloginfo('template_url') ?>/assets/img/svg/arrow-down.svg" alt=""></svg></div>
-        <img id="front-page-video" src="<?php bloginfo('template_url'); ?>/assets/img/front-page-image.jpg" alt="front image">
-    </section>
+<?php get_template_part('./template_parts/sidebar'); ?>
+<section id="section-intro">
+    <h1>Espaces pour industries créatives</h1>
+    <div class="arrow"><a href="#projet"><img src="<?php bloginfo('template_url')?>/assets/img/svg/arrow-down.svg" alt=""></a></div>
+    <img id="front-page-video" src="<?php bloginfo('template_url'); ?>/assets/img/front-page-image.jpg" alt="front image">
+</section>
 
-    <section class="intro-text">
-        <div class="texte">
-            <p>Le plus grand cluster d'entreprises wallon, dédié à l'audiovisuel, aux métiers du digital, au gaming et à l'AR/VR.</p>
-        </div>
-        <div class="installation">
-            <h3>Installation à la pointe</h3>
-            <ul>
-                <li>Texte</li>
-                <li>Texte</li>
-                <li>Texte</li>
-            </ul>
-        </div>
-        <div class="lieu-travail">
-            <h3>Plus qu’un lieu de travail</h3>
-            <ul>
-                <li>Texte</li>
-                <li>Texte</li>
-                <li>Texte</li>
-            </ul>
-        </div>
-    </section>
+<section class="intro-text">
+    <div class="texte"><p>Le plus grand cluster d'entreprises wallon, dédié à l'audiovisuel, aux métiers du digital, au gaming et à l'AR/VR.</p></div>
+       <div class="installation">
+           <h3>Installation à la pointe</h3>
+           <ul>
+               <li>Texte</li>
+               <li>Texte</li>
+               <li>Texte</li>
+           </ul>
+       </div>
+       <div class="lieu-travail">
+           <h3>Plus qu’un lieu de travail</h3>
+           <ul>
+               <li>Texte</li>
+               <li>Texte</li>
+               <li>Texte</li>
+           </ul>
+       </div>
+</section>
 
     <div class="text-scroll">
         <h2>30+ entreprises / 400+ personnes / 35</h2>
     </div>
 
-    <section class="projet">
-        <h2>Vous avez un projet <span>audiovisuel ou digital ?</span></h2>
+<section id="projet" class="projet">
+    <h2>Vous avez un projet <span>audiovisuel ou digital ?</span></h2>
 
         <div class="container">
             <p>Une entreprise du Pôle peut vous aider !</p>
@@ -67,7 +65,55 @@
                 </div>
             </div>
 
+    </div>
+</section>
+
+    <section class="formations">
+        <div class="container">
+            <img src="<?php bloginfo('template_url'); ?>/assets/img/formations-photo.jpg" alt="formations photo">
+            <div class="texte-formations">
+                <h2>Formations audiovisuel</h2>
+                <h4>Vous souhaitez vous former à un métier ou une compétence en pénurie en Wallonie ?</h4>
+                <p>Rendez-vous sur le site de l’ACA, notre projet dédié à la formation dans l’audiovisuel pour obtenir toutes les informations nécessaires ! Chaque année, plusieurs formations sont organisées en partenariat avec Technifutur, des entreprises du Pôle et l’ACA.</p>
+                <ul>
+                    <li>Développeur web par Becode</li>
+                    <li>Animateur 3D / 2D</li>
+                    <li>Storyboarding</li>
+                    <li>Assistant de production</li>
+                    <li>Salles de montage son/image</li>
+                    <li>Motion Design</li>
+                    <li>Pro Tools</li>
+                </ul>
+
+                <a href="#">Voir le site ACA +</a>
+            </div>
         </div>
+    </section>
+
+    <section class="entreprises">
+        <h3>Les entreprises</h3>
+
+        <ul>
+            <?php 
+            $args = array(  
+        'post_type' => 'entreprises',
+        'posts_per_page' => 28,
+    );
+
+    $loop = new WP_Query( $args );
+
+    if($loop->have_posts()) : while($loop->have_posts()): $loop->the_post();
+    ?> 
+    <li><?php the_title(); ?></li>
+<?php
+endwhile;
+
+else:
+    ?> <h1>No posts</h1>
+    <?php
+endif;
+     ?>
+        </ul>
     </section>
 </main>
 <?php get_footer(); ?>
