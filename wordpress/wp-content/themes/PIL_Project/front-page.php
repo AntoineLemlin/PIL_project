@@ -3,7 +3,7 @@
 <?php get_template_part('./template_parts/sidebar'); ?>
 <section id="section-intro">
     <h1>Espaces pour industries créatives</h1>
-    <div class="arrow"><a href="#projet"><img src="<?php bloginfo('template_url')?>/assets/img/svg/arrow-down.svg" alt=""></a></div>
+    <?php get_template_part('./template_parts/arrow'); ?>
     <img id="front-page-video" src="<?php bloginfo('template_url'); ?>/assets/img/front-page-image.jpg" alt="front image">
 </section>
 
@@ -27,9 +27,8 @@
        </div>
 </section>
 
-    <div class="text-scroll">
-        <h2>30+ entreprises / 400+ personnes / 35</h2>
-    </div>
+<?php get_template_part('./template_parts/scroll-text'); ?>
+
 
 <section id="projet" class="projet">
     <h2>Vous avez un projet <span>audiovisuel ou digital ?</span></h2>
