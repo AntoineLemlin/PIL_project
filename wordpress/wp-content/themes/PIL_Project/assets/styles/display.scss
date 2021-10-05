@@ -14,8 +14,10 @@ html {
     main {
       @import "./layout/sidebar";
       @import "./layout/front-page";
+      @import "./layout/contact-page";
       @import "./layout/scroll-text";
     }
+
     @import "./layout/footer";
   }
 }
