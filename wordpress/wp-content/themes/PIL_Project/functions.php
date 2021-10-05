@@ -62,4 +62,9 @@ function add_file_types_to_uploads($file_types)
     return $file_types;
 }
 add_filter('upload_mimes', 'add_file_types_to_uploads');
+
+
+@ini_set( 'upload_max_size' , '64M');
+@ini_set( 'post_max_size', '64M');
+@ini_set( 'max_execution_time', '300');
 ?>
