@@ -1,23 +1,22 @@
-@import './layout/root';
-html{
+@import "./layout/root";
+html {
     font-size: 62.5%;
-
+    scroll-behavior: smooth;
 }
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    body{
-            overflow-x: hidden;
-            font-family: 'II Vorkurs';
-            background-color: var(--unnamed-color-171717);
-                @import './layout/header';
-            main{
-                @import './layout/sidebar';
-                @import './layout/front-page';
-                @import './layout/scroll-text';
-                @import './layout/page-espaces';
-            }
-
-        }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  body {
+    font-family: "II Vorkurs";
+    background-color: var(--unnamed-color-171717);
+    overflow-x: hidden;
+    @import "./layout/header";
+    main {
+      @import "./layout/sidebar";
+      @import "./layout/front-page";
+      @import "./layout/scroll-text";
+    }
+    @import "./layout/footer";
+  }
 }

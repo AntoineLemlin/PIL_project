@@ -1,16 +1,24 @@
 .text-scroll{
-    position: relative;
+    width: 100%;
     margin-top: 25rem;
+    overflow-x: hidden;
     h2{
-        position: absolute;
         white-space: nowrap;
-        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) 135px/216px var(--unnamed-font-family-ii-vorkurs);
-        text-align: left;
         font-family:'II Vorkurs';
-        font-size: 13.6rem;
+        font-size: clamp(10.8rem,7.083vw, 13.6rem);
         letter-spacing: -.513rem;
         opacity: 1;
-        color: var(--unnamed-color-ffffff);
+        color: white;
+        animation: 20s slide 1s linear infinite;
+        transform: translateX(100%);
+        transform-origin: left;
+
     }
 
 }
+
+@keyframes slide {
+    to{
+      transform: translateX(-150%);
+    }
+  }

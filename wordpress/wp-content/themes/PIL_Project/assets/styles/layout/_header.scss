@@ -16,14 +16,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 12.375rem;
-    height: 12.375rem;
+    width: clamp(10.94rem, 6.44vw, 12.375rem);
+    height: clamp(10.94rem, 6.44vw, 12.375rem);
     background-color: white;
     .main-menu-logo {
-        max-width: 100%;
-        opacity:1;
-        background-color: var(--unnamed-color-ffffff);
-    }
+        width: clamp(6.7rem, 3.906vw,7.5rem);
+        height: clamp(6.7rem, 3.906vw,7.5rem);
+        opacity:1;    }
 }
 
 
@@ -48,11 +47,18 @@ header {
 
 .main-menu-list2{
     margin-left: auto;
-    margin-right: 15px;
+    gap: 1.5rem;
+    font-size: 1.8rem;
 }
 
 .main-pages{
     margin-left: 14.3rem;
+
+    li{
+        a{
+            font-size: 1.8rem;
+        }
+    }
 }
 
 .contact-page-arrow {
@@ -79,5 +85,28 @@ header {
         display: flex;
         align-items: center;
 
+    }
+}
+
+@media only screen and (max-width: 769px){
+    header{
+        position: static;
+    }
+    .main-menu-list1, .main-menu-list2{
+        display: none;
+    }
+
+    .main-menu-ribbon{
+        border-bottom-style: none;
+    }
+
+    .logo{
+        width: clamp(7.3rem, 5.698vw, 10.9rem);
+        height: clamp(7.3rem, 5.698vw, 10.9rem);
+        padding: 13px;
+
+        .main-menu-logo{
+            width: clamp(4.5rem, 3.49vw, 6.7rem);
+        }
     }
 }
