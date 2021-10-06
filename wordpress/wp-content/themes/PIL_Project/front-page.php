@@ -117,6 +117,8 @@
             $args = array(  
         'post_type' => 'entreprises',
         'posts_per_page' => 28,
+        'orderby' => 'menu_order',
+        'order' => 'ASC'
     );
 
     $loop = new WP_Query( $args );
