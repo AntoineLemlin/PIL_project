@@ -2,6 +2,7 @@ header {
     width: 100%;
     position: fixed;
     z-index: 10;
+    mix-blend-mode: difference;
 }
 
 .main-menu-ribbon {
@@ -10,6 +11,8 @@ header {
     justify-content: flex-start;
     align-items: center;
     border-bottom: 1px solid var(--unnamed-color-4b4b4b);
+    mix-blend-mode: difference;
+
 }
 
 .logo{
@@ -23,41 +26,43 @@ header {
         width: clamp(6.7rem, 3.906vw,7.5rem);
         height: clamp(6.7rem, 3.906vw,7.5rem);
         opacity:1;    }
-}
-
-
-.main-menu-list1 {
-    min-width: 50%;
-}
-
-.main-menu-list2 {
-    max-width: 50%;
-}
-
-.main-pages, .contact-page {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    .menu-item a{
+    }
+    
+    
+    .main-menu-list1 {
+        min-width: 50%;
+    }
+    
+    .main-menu-list2 {
+        max-width: 50%;
+    }
+    
+    .main-pages, .contact-page {
         display: flex;
-        color: var(--unnamed-color-ffffff);
-        text-decoration: none;
-    };
-}
-
-.main-menu-list2{
-    margin-left: auto;
-    gap: 1.5rem;
-    font-size: 1.8rem;
-}
-
+        justify-content: space-between;
+        list-style-type: none; 
+            
+        .menu-item a{
+            display: flex;
+            color: var(--unnamed-color-ffffff);
+            text-decoration: none;
+        };
+    }
+    
+    .main-menu-list2{
+        margin-left: auto;
+        gap: 1.5rem;
+        font-size: 1.8rem;
+    }
+    
 .main-pages{
     margin-left: 14.3rem;
-
+    
     li{
+        background-color: transparent;
         a{
             font-size: 1.8rem;
-        }
+            }
     }
 }
 
