@@ -1011,6 +1011,7 @@ html {
 }
 
 * body main .intro-text .installation ul li, * body main .intro-text .lieu-travail ul li {
+  list-style-type: none;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-ffffff);
@@ -1019,6 +1020,12 @@ html {
   letter-spacing: 0px;
   color: #FFFFFF;
   opacity: 1;
+}
+
+* body main .intro-text .installation ul li::before, * body main .intro-text .lieu-travail ul li::before {
+  content: "+";
+  color: var(--unnamed-color-ffc33b);
+  margin-right: 0.5rem;
 }
 
 * body main .intro-text .texte {
