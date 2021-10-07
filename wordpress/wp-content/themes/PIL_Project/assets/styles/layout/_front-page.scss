@@ -24,6 +24,8 @@
         opacity: 1;
         text-align: right;
         transform: translateY(-20%);
+        cursor: crosshair;
+        
 
         img{
             width: 100%;
@@ -161,6 +163,10 @@
                 justify-content: space-between;
                 flex-direction: column;
 
+                a{
+                    text-decoration: none;
+                }
+
                 .company-logo{
                     margin: 3.9rem 0 0 2.6rem;
                     width: 4.415rem;
@@ -216,6 +222,25 @@
     }
 
 }
+
+.cursor {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: var(--width);
+    height: var(--height);
+    transform: translate(calc(var(--x) - var(--width) / 2), calc(var(--y) - var(--height) / 2));
+    /* transition-duration: 125ms;
+    transition-timing-function: cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition-property: width, height, transform; */
+    transition: 150ms width cubic-bezier(0.39, 0.575, 0.565, 1),
+                150ms height cubic-bezier(0.39, 0.575, 0.565, 1),
+                150ms transform cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
+    pointer-events: none;
+    will-change: transform;
+  }
 
 .formations{
     padding-left: 26rem;
@@ -370,10 +395,6 @@
         .installation, .lieu-travail{
             flex-basis: 25%;
         }
-    }
-
-    .projet{
-        // margin: auto;
     }
 
     .formations{

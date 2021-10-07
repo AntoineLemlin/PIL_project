@@ -2,33 +2,56 @@
 <main>
 <?php get_template_part('./template_parts/sidebar'); ?>
 <section id="section-intro">
-    <h1>Espaces pour industries créatives</h1>
-    <?php get_template_part('./template_parts/arrow'); ?>
-    <img id="front-page-video" src="<?php bloginfo('template_url'); ?>/assets/img/front-page-image.jpg" alt="front image">
+    <h1><?php echo the_field('title_text'); ?></h1>
+    <div class="arrow"><a href="#projet"><img src="<?php bloginfo('template_url')?>/assets/img/svg/arrow-down.svg" alt=""></a></div>
+    <?php if(get_field('video')): ?>
+        <div id="box" class="front-page-container">
+            <?php echo get_field('video'); ?>
+
+        </div>
+        
+      
+        
+
+    <?php else: ?>
+        <img id="front-page-video" src="<?php bloginfo('template_url'); ?>/assets/img/front-page-image.jpg" alt="front image">
+    <?php endif; ?>
+      
 </section>
 
 <section class="intro-text">
-    <div class="texte"><p>Le plus grand cluster d'entreprises wallon, dédié à l'audiovisuel, aux métiers du digital, au gaming et à l'AR/VR.</p></div>
+    <div class="texte"><p><?php echo the_field('introduction'); ?></p></div>
        <div class="installation">
-           <h3>Installation à la pointe</h3>
+           <h3><?php echo the_field('titre'); ?></h3>
+           <?php if( have_rows('installation') ): ?>
            <ul>
-               <li>Texte</li>
-               <li>Texte</li>
-               <li>Texte</li>
+               <?php while( have_rows('installation') ) : the_row(); ?>
+
+                <li><?php echo the_sub_field('item'); ?></li>
+
+                <?php endwhile; ?>
            </ul>
+
+           <?php endif; ?>
        </div>
        <div class="lieu-travail">
-           <h3>Plus qu’un lieu de travail</h3>
+           <h3><?php echo the_field('titre-travail'); ?></h3>
+           <?php if( have_rows('travail') ): ?>
            <ul>
-               <li>Texte</li>
-               <li>Texte</li>
-               <li>Texte</li>
+               <?php while( have_rows('travail') ) : the_row(); ?>
+
+                <li><?php echo the_sub_field('item'); ?></li>
+
+                <?php endwhile; ?>
            </ul>
+
+           <?php endif; ?>
        </div>
 </section>
 
-<?php get_template_part('./template_parts/scroll-text'); ?>
-
+    <div class="text-scroll">
+        <h2>30+ entreprises / 400+ personnes / 35</h2>
+    </div>
 
 <section id="projet" class="projet">
     <h2>Vous avez un projet <span>audiovisuel ou digital ?</span></h2>
@@ -36,26 +59,20 @@
         <div class="container">
             <p>Une entreprise du Pôle peut vous aider !</p>
             <div class="cards">
+                <?php
+                    $terms = get_terms( array(
+                    'taxonomy' => 'categories',
+                    'hide_empty' => false,
+                    'number' => '5'
+                ) );
+             foreach($terms as $cat){?>
                 <div class="card">
-                    <div class="company-logo"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-image.svg' ?>" alt=""></div>
-                    <h4>Image <span>(14)</span></h4>
+                    <div class="company-logo"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-' . $cat->slug .  '.svg' ?>" alt=""></div>
+                    <a href="<?php echo get_term_link($cat) ?>"><h4><?php echo $cat->name ?> <span>(<?php echo $cat->count ?>)</span></h4></a>
                 </div>
-                <div class="card">
-                    <div class="company-logo"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-ar-vr.svg' ?>" alt=""></div>
-                    <h4>Ar / Vr <span>(5)</span></h4>
-                </div>
-                <div class="card">
-                    <div class="company-logo"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-son.svg' ?>" alt=""></div>
-                    <h4>Son <span>(8)</span></h4>
-                </div>
-                <div class="card">
-                    <div class="company-logo"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-digital.svg' ?>" alt=""></div>
-                    <h4>Digital <span>(23)</span></h4>
-                </div>
-                <div class="card">
-                    <div class="company-logo"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-digital-2.svg' ?>" alt=""></div>
-                    <h4>Digital <span>(23)</span></h4>
-                </div>
+
+                <?php }?>
+
                 <div class="card">
                     <div class="container">
                         <img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-digital.svg' ?>" alt="">
@@ -69,22 +86,25 @@
 
     <section class="formations">
         <div class="container">
-            <img src="<?php bloginfo('template_url'); ?>/assets/img/formations-photo.jpg" alt="formations photo">
-            <div class="texte-formations">
-                <h2>Formations audiovisuel</h2>
-                <h4>Vous souhaitez vous former à un métier ou une compétence en pénurie en Wallonie ?</h4>
-                <p>Rendez-vous sur le site de l’ACA, notre projet dédié à la formation dans l’audiovisuel pour obtenir toutes les informations nécessaires ! Chaque année, plusieurs formations sont organisées en partenariat avec Technifutur, des entreprises du Pôle et l’ACA.</p>
+            <?php $image = get_field('image-formation'); ?>
+        <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />            <div class="texte-formations">
+                <h2><?php echo the_field('titre-formation'); ?></h2>
+                <h4><?php echo the_field('introduction-formation'); ?></h4>
+                <p><?php echo the_field('texte-formation'); ?></p>
                 <ul>
-                    <li>Développeur web par Becode</li>
-                    <li>Animateur 3D / 2D</li>
-                    <li>Storyboarding</li>
-                    <li>Assistant de production</li>
-                    <li>Salles de montage son/image</li>
-                    <li>Motion Design</li>
-                    <li>Pro Tools</li>
+                <?php if( have_rows('liste-formation') ): ?>
+           <ul>
+               <?php while( have_rows('liste-formation') ) : the_row(); ?>
+
+                <li><?php echo the_sub_field('item'); ?></li>
+
+                <?php endwhile; ?>
+           </ul>
+
+           <?php endif; ?>
                 </ul>
 
-                <a href="#">Voir le site ACA +</a>
+                <a href="<?php echo the_field('lien_bouton'); ?>">Voir le site ACA +</a>
             </div>
         </div>
     </section>
@@ -97,6 +117,8 @@
             $args = array(  
         'post_type' => 'entreprises',
         'posts_per_page' => 28,
+        'orderby' => 'menu_order',
+        'order' => 'ASC'
     );
 
     $loop = new WP_Query( $args );
@@ -114,5 +136,6 @@ endif;
      ?>
         </ul>
     </section>
+    <?php get_template_part('./template_parts/cookies'); ?>
 </main>
 <?php get_footer(); ?>
