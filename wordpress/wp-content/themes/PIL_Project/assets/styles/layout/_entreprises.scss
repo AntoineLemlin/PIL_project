@@ -1,0 +1,113 @@
+.widget{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 14.25rem 0 0 26.5rem;
+    padding-top: 13.25rem;
+    border-right: 1px solid white;
+    height: 100%;
+    width: 25%;
+
+    h2{
+        font-size: 5rem;
+        line-height: 5.5rem;
+        letter-spacing: -0.19rem;
+        color: white;
+        margin-bottom: 7rem;
+    }
+
+    ul{
+        color: white;
+        list-style-type: none;
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+
+        li{
+            &::before{
+                content: '+';
+                color: var(--unnamed-color-ffc33b);
+                margin-right: 1.5rem;
+            }
+        }
+    }
+
+}
+
+.companies{
+    width: 50%;
+    margin-left: auto;
+    padding-top: 20rem;
+
+    .search{
+        background: var(--unnamed-color-212121) 0% 0% no-repeat padding-box;
+        background: #212121 0% 0% no-repeat padding-box;
+        border-radius: 32px;
+        opacity: 0.5;
+        width: 100%;
+        margin: 2rem 0;
+        height: 5rem;
+        font-size: 4rem;
+        color: white;
+        position: relative;
+        
+        &::after{
+            position: absolute;
+            content: '\f002';
+            font-family: "Font Awesome 5 Free";
+            height: 100%;
+            width: 100%;
+            font-weight: 500;
+            color: white;
+            top: 0;
+            right: 0;
+        }
+    }
+
+    .company{
+        width: 100%;
+        .title{
+            display: flex;
+            border-bottom: 2px solid white;
+            cursor: pointer;
+            padding: 18px;
+            height: 10rem;
+            h3{
+                font-size: 4rem;
+                padding-bottom: 1rem;
+                color: white;
+            }
+            
+            img{
+                margin-left: auto;
+                
+            }
+        }
+
+
+        .panel{
+            display: none;
+            flex-direction: row;
+            align-items: center;
+            gap: 10rem;
+            padding: 0 18px;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            img{
+                width: 33.4rem;
+                margin: 5rem 0;
+            }
+
+            .texte{
+                h4{
+                    font-size: 1.8rem;
+                    line-height: 2.6rem;
+                    color: white;
+                }
+
+                .website{
+                    color: var(--unnamed-color-ffc33b);
+                }
+            }
+        }
+    }
+}

@@ -6,6 +6,7 @@ function theme_functions()
     add_theme_support('title-tag');
     add_theme_support('custom-logo');
     add_theme_support('menus');
+    add_theme_support('widgets');
 }
 
 if (function_exists('acf_add_options_page')) {

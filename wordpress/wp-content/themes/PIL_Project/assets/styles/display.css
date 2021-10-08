@@ -1340,6 +1340,10 @@ html {
   opacity: 0.5;
 }
 
+* body main .yellow-words {
+  color: var(--unnamed-color-ffc33b);
+}
+
 @media only screen and (max-width: 769px) {
   * body main #section-intro, * body main .intro-text, * body main .projet {
     margin-left: clamp(3.2rem, 4.11vw, 7.9rem);
@@ -1394,6 +1398,195 @@ html {
     -webkit-transform: translateY(-4rem);
             transform: translateY(-4rem);
   }
+}
+
+* body main .titleStreetPhoneMailMaps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+}
+
+* body main .titleStreetPhoneMailMaps .phoneMailGmaps {
+  margin-top: 12.5rem;
+  border-left: 0.1rem solid rgba(255, 255, 255, 0.2);
+}
+
+* body main .titleStreetPhoneMailMaps .phoneMailGmaps .phoneMail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 5rem;
+  font-weight: lighter;
+  margin-left: 7.5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+* body main .titleStreetPhoneMailMaps .phoneMailGmaps a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+* body main .titleStreetPhoneMailMaps .phoneMailGmaps a:visited {
+  color: #ffffff;
+}
+
+* body main .titleStreetPhoneMailMaps .titleStreetItinerary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  margin-top: 12.5rem;
+  padding-left: 12.5rem;
+}
+
+* body main .titleStreetPhoneMailMaps .titleStreetItinerary .title {
+  font-size: 5rem;
+  padding-top: 5rem;
+  margin-bottom: 17.5rem;
+}
+
+* body main .titleStreetPhoneMailMaps .titleStreetItinerary .street {
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+
+* body main .titleStreetPhoneMailMaps .titleStreetItinerary .itinerary {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+* body main .widget {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 14.25rem 0 0 26.5rem;
+  padding-top: 13.25rem;
+  border-right: 1px solid white;
+  height: 100%;
+  width: 25%;
+}
+
+* body main .widget h2 {
+  font-size: 5rem;
+  line-height: 5.5rem;
+  letter-spacing: -0.19rem;
+  color: white;
+  margin-bottom: 7rem;
+}
+
+* body main .widget ul {
+  color: white;
+  list-style-type: none;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+* body main .widget ul li::before {
+  content: '+';
+  color: var(--unnamed-color-ffc33b);
+  margin-right: 1.5rem;
+}
+
+* body main .companies {
+  width: 50%;
+  margin-left: auto;
+  padding-top: 20rem;
+}
+
+* body main .companies .search {
+  background: var(--unnamed-color-212121) 0% 0% no-repeat padding-box;
+  background: #212121 0% 0% no-repeat padding-box;
+  border-radius: 32px;
+  opacity: 0.5;
+  width: 100%;
+  margin: 2rem 0;
+  height: 5rem;
+  font-size: 4rem;
+  color: white;
+  position: relative;
+}
+
+* body main .companies .search::after {
+  position: absolute;
+  content: '\f002';
+  font-family: "Font Awesome 5 Free";
+  height: 100%;
+  width: 100%;
+  font-weight: 500;
+  color: white;
+  top: 0;
+  right: 0;
+}
+
+* body main .companies .company {
+  width: 100%;
+}
+
+* body main .companies .company .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+  padding: 18px;
+  height: 10rem;
+}
+
+* body main .companies .company .title h3 {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+* body main .companies .company .title img {
+  margin-left: auto;
+}
+
+* body main .companies .company .panel {
+  display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10rem;
+  padding: 0 18px;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+
+* body main .companies .company .panel img {
+  width: 33.4rem;
+  margin: 5rem 0;
+}
+
+* body main .companies .company .panel .texte h4 {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: white;
+}
+
+* body main .companies .company .panel .texte .website {
+  color: var(--unnamed-color-ffc33b);
 }
 
 * body main .text-scroll {

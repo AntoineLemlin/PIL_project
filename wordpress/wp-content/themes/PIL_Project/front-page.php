@@ -2,7 +2,7 @@
 <main>
 <?php get_template_part('./template_parts/sidebar'); ?>
 <section id="section-intro">
-    <h1><?php echo the_field('title_text'); ?></h1>
+    <h1 id="main-title"><?php echo the_field('title_text'); ?></h1>
     <div class="arrow"><a href="#projet"><img src="<?php bloginfo('template_url')?>/assets/img/svg/arrow-down.svg" alt=""></a></div>
     <?php if(get_field('video')): ?>
         <div id="box" class="front-page-container">
@@ -61,14 +61,14 @@
             <div class="cards">
                 <?php
                     $terms = get_terms( array(
-                    'taxonomy' => 'categories',
+                    'taxonomy' => 'secteurs',
                     'hide_empty' => false,
                     'number' => '5'
                 ) );
              foreach($terms as $cat){?>
                 <div class="card">
                     <div class="company-logo"><img src="<?php echo bloginfo('url') . '/wp-content/uploads/2021/09/cat-' . $cat->slug .  '.svg' ?>" alt=""></div>
-                    <a href="<?php echo get_term_link($cat) ?>"><h4><?php echo $cat->name ?> <span>(<?php echo $cat->count ?>)</span></h4></a>
+                    <a href="<?php echo get_term_link($cat->term_id); ?>"><h4><?php echo $cat->name ?> <span>(<?php echo $cat->count ?>)</span></h4></a>
                 </div>
 
                 <?php }?>
