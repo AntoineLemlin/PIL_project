@@ -6,6 +6,7 @@ function theme_functions()
     add_theme_support('title-tag');
     add_theme_support('custom-logo');
     add_theme_support('menus');
+    add_theme_support('widgets');
 }
 
 if (function_exists('acf_add_options_page')) {
@@ -22,7 +23,7 @@ if (function_exists('acf_add_options_page')) {
 function add_scripts(){
 wp_enqueue_style('style', get_template_directory_uri() . '/assets/styles/display.css', NULL, microtime(), 'all');
 wp_enqueue_style('fonts', get_template_directory_uri() . '/assets/fonts/II Vorkurs/stylesheet.css', NULL, microtime(), 'all');
-wp_enqueue_script('script', get_template_directory_uri() . '/JS/main.js',NULL, microtime(), true);
+wp_enqueue_script('script', get_theme_file_uri() . '/assets/JS/main.js',NULL, microtime(), true);
 }
 ?>
 <?php if (function_exists('acf_add_options_page')) {

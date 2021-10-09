@@ -1,3 +1,5 @@
+<?php /* Template Name: archives */ ?>
+
 <?php get_header(); ?>
 
 <main>
