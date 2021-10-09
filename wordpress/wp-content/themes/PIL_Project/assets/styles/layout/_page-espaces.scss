@@ -4,6 +4,11 @@
 .espaces-top-banner {
     background-color: var(--unnamed-color-ffffff);
     text-align:center;
+    .banner-image-container {
+        .banner-image{
+            width:100%;
+        }
+    }
 }
 
 .section-espaces-white {
@@ -13,16 +18,12 @@
         position:relative;
         top: 15rem;
     }
-    .espaces-image-container {
-
-        .espaces-image{
-            width:100%;
-        }
-    }
     .espaces-description-container{
         display:flex;
+        .button-link {
+            text-decoration: none;
+        }
     }
-
 }
 
 .section-outils-black {
@@ -36,5 +37,9 @@
             width:100%;
         }
     }
-
+    .outils-accordeon-container{
+        
+    }
 }
+
+@import './cta'

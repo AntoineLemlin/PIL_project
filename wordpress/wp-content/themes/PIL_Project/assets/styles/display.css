@@ -708,19 +708,15 @@ html {
 }
 * body .logo {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: clamp(10.94rem, 6.44vw, 12.375rem);
   height: clamp(10.94rem, 6.44vw, 12.375rem);
   background-color: white;
 }
 * body .logo .main-menu-logo {
-  width: clamp(6.7rem, 3.906vw, 7.5rem);
-  height: clamp(6.7rem, 3.906vw, 7.5rem);
+  width: clamp(6.7rem, 3.906vw,7.5rem);
+  height: clamp(6.7rem, 3.906vw,7.5rem);
   opacity: 1;
 }
 * body .main-menu-list1 {
@@ -747,11 +743,9 @@ html {
 * body .main-pages {
   margin-left: 14.3rem;
 }
-
 * body .main-pages li a {
   font-size: 1.8rem;
 }
-
 * body .contact-page-arrow {
   display: flex;
   align-items: center;
@@ -772,7 +766,6 @@ html {
   display: flex;
   align-items: center;
 }
-
 @media only screen and (max-width: 769px) {
   * body header {
     position: static;
@@ -792,7 +785,6 @@ html {
     width: clamp(4.5rem, 3.49vw, 6.7rem);
   }
 }
-
 * body main aside {
   display: flex;
   align-items: flex-end;
@@ -826,13 +818,11 @@ html {
   color: var(--unnamed-color-ffffff);
   text-decoration: none;
 }
-
 @media only screen and (max-width: 769px) {
   * body main aside {
     display: none;
   }
 }
-
 * body main #section-intro {
   padding: 26.675rem 0 0 0;
   position: relative;
@@ -845,7 +835,7 @@ html {
   color: var(--unnamed-color-ffffff);
   text-align: left;
   font-size: clamp(7.3rem, 4.68vw, 9rem);
-  font-family: 'II Vorkurs';
+  font-family: "II Vorkurs";
   line-height: 9rem;
   letter-spacing: -3.42px;
   color: #FFFFFF;
@@ -858,8 +848,7 @@ html {
   object-fit: contain;
   opacity: 1;
   text-align: right;
-  -webkit-transform: translateY(-20%);
-          transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 * body main #section-intro #front-page-video img {
   width: 100%;
@@ -868,8 +857,6 @@ html {
 * body main #section-intro .arrow {
   display: inline-block;
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -879,46 +866,31 @@ html {
   height: 27.3rem;
   width: 27.3rem;
   margin-left: auto;
-  -webkit-transform: translateY(-10%);
-          transform: translateY(-10%);
+  transform: translateY(-10%);
   right: 25%;
 }
 * body main #section-intro .arrow img {
   height: 3.6rem;
   width: 3.6rem;
-  -webkit-transition: -webkit-transform 0.2s linear;
-  transition: -webkit-transform 0.2s linear;
   transition: transform 0.2s linear;
-  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
-
 * body main #section-intro .arrow img:hover {
-  -webkit-transform: translateY(2rem);
-          transform: translateY(2rem);
+  transform: translateY(2rem);
 }
-
 * body main #section-intro .arrow a {
   text-decoration: none;
 }
 * body main .intro-text {
   max-width: 100%;
   margin: 14.3rem 0 0 clamp(7.9rem, 25vw, 26.2rem);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 10rem;
 }
-
 * body main .intro-text .installation, * body main .intro-text .lieu-travail {
-  -ms-flex-preferred-size: 33.4rem;
-      flex-basis: 33.4rem;
+  flex-basis: 33.4rem;
 }
-
 * body main .intro-text .installation h3, * body main .intro-text .lieu-travail h3 {
   font-size: 3.4rem;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
@@ -931,7 +903,6 @@ html {
   opacity: 1;
   margin-bottom: 4rem;
 }
-
 * body main .intro-text .installation ul li, * body main .intro-text .lieu-travail ul li {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing-0);
@@ -953,8 +924,7 @@ html {
   color: #FFFFFF;
   line-height: 4.7rem;
   opacity: 1;
-  -ms-flex-preferred-size: 33.4rem;
-      flex-basis: 33.4rem;
+  flex-basis: 33.4rem;
 }
 * body main .projet {
   margin: clamp(12.9rem, 19.995vw, 26.2rem) 0 clamp(12.9rem, 19.995vw, 26.2rem) 26.675rem;
@@ -966,15 +936,13 @@ html {
   opacity: 1;
   color: var(--unnamed-color-ffffff);
   font-size: clamp(7.3rem, 4.688vw, 9rem);
-  width: clamp(61rem, 52.369vw, 100.6rem);
+  width: clamp(61rem, 52.369vw ,100.6rem);
 }
 * body main .projet h2 span {
   color: var(--unnamed-color-ffc33b);
 }
 * body main .projet .container {
   width: clamp(61rem, 75.208vw, 144.4rem);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
 }
@@ -993,12 +961,10 @@ html {
   width: 100%;
 }
 * body main .projet .container .cards .card {
-  width: clamp(19rem, 11.25vw, 21.6rem);
-  height: clamp(29.1rem, 17.24vw, 33.1rem);
+  width: clamp(19rem, 11.250vw ,21.6rem);
+  height: clamp(29.1rem, 17.240vw ,33.1rem);
   background-color: var(--unnamed-color-212121);
   margin: 0 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -1046,47 +1012,36 @@ html {
   line-height: 2.2rem;
   margin: 2rem 0 0 0;
 }
-
 * body main .formations {
   padding-left: 26rem;
   background: white;
   height: auto;
   width: 100%;
 }
-
 * body main .formations .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
   gap: 12.35rem;
 }
-
 * body main .formations .container img {
   width: 56.7rem;
   height: auto;
-  -webkit-transform: translateY(-12.35rem);
-          transform: translateY(-12.35rem);
+  transform: translateY(-12.35rem);
 }
-
 * body main .formations .container .texte-formations {
   padding-bottom: 17.6rem;
 }
-
 * body main .formations .container .texte-formations h2 {
   margin-top: 12.6rem;
   margin-bottom: 3.9rem;
   width: 68.8rem;
-  font-family: 'II Vorkurs';
+  font-family: "II Vorkurs";
   font-size: 9rem;
   letter-spacing: -3.42px;
   line-height: 9rem;
   color: #171717;
   opacity: 1;
 }
-
 * body main .formations .container .texte-formations h4 {
   text-align: left;
   font: normal normal 300 24px/38px II Vorkurs;
@@ -1095,7 +1050,6 @@ html {
   opacity: 0.98;
   width: 57rem;
 }
-
 * body main .formations .container .texte-formations p {
   margin: 3.9rem 0;
   text-align: left;
@@ -1105,22 +1059,14 @@ html {
   opacity: 1;
   width: 57rem;
 }
-
 * body main .formations .container .texte-formations ul {
   width: 65.7rem;
   height: 14.4rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin-bottom: 7.2rem;
 }
-
 * body main .formations .container .texte-formations ul li {
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-300) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
   letter-spacing: var(--unnamed-character-spacing-0);
@@ -1132,7 +1078,6 @@ html {
   opacity: 1;
   list-style-type: none;
 }
-
 * body main .formations .container .texte-formations a {
   margin-bottom: 17.7rem;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-ii-vorkurs);
@@ -1148,35 +1093,25 @@ html {
   padding: 1.2rem 4.6rem 1.3rem 2.9rem;
   text-decoration: none;
 }
-
 * body main .entreprises {
   margin-left: 26.5rem;
 }
-
 * body main .entreprises h3 {
-  font-family: 'II Vorkurs';
+  font-family: "II Vorkurs";
   font-size: 2.4rem;
   line-height: 2.6rem;
   font-weight: bold;
   color: #FFFFFF;
   margin: 8.824rem 0 4.9rem 0;
 }
-
 * body main .entreprises ul {
   width: 32.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin-bottom: 8.3rem;
   height: 30rem;
 }
-
 * body main .entreprises ul li {
   font-size: 1.8rem;
   list-style-type: none;
@@ -1184,11 +1119,10 @@ html {
   text-align: left;
   color: #FFFFFF;
   font-weight: light;
-  font-family: 'II Vorkurs';
+  font-family: "II Vorkurs";
   margin-bottom: 1.7rem;
   opacity: 0.5;
 }
-
 @media only screen and (max-width: 769px) {
   * body main #section-intro, * body main .intro-text, * body main .projet {
     margin-left: clamp(3.2rem, 4.11vw, 7.9rem);
@@ -1198,39 +1132,29 @@ html {
     margin: 12.3rem 0 0 7.9rem;
   }
   * body main #section-intro #front-page-video {
-    -webkit-transform: translateY(-40%);
-            transform: translateY(-40%);
+    transform: translateY(-40%);
   }
   * body main #section-intro h1 {
     line-height: 7rem;
-    font-size: clamp(5.2rem, 3.802vw, 7.3rem);
+    font-size: clamp(5.2rem,3.802vw,7.3rem);
     width: clamp(31rem, 26.302vw, 50.5rem);
   }
   * body main .intro-text {
     margin-top: -2rem;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   * body main .intro-text .texte {
-    -ms-flex-preferred-size: 90%;
-        flex-basis: 90%;
+    flex-basis: 90%;
   }
   * body main .intro-text .installation, * body main .intro-text .lieu-travail {
-    -ms-flex-preferred-size: 25%;
-        flex-basis: 25%;
+    flex-basis: 25%;
   }
   * body main .formations {
     padding-left: 0;
   }
   * body main .formations .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
   * body main .formations .container .texte-formations {
     padding-left: 8rem;
@@ -1240,11 +1164,9 @@ html {
   }
   * body main .formations .container img {
     width: 60.9rem;
-    -webkit-transform: translateY(-4rem);
-            transform: translateY(-4rem);
+    transform: translateY(-4rem);
   }
 }
-
 * body main .text-scroll {
   width: 100%;
   margin-top: 25rem;
@@ -1252,198 +1174,172 @@ html {
 }
 * body main .text-scroll h2 {
   white-space: nowrap;
-  font-family: 'II Vorkurs';
-  font-size: clamp(10.8rem, 7.083vw, 13.6rem);
-  letter-spacing: -.513rem;
+  font-family: "II Vorkurs";
+  font-size: clamp(10.8rem,7.083vw, 13.6rem);
+  letter-spacing: -0.513rem;
   opacity: 1;
   color: white;
-  -webkit-animation: 20s slide 1s linear infinite;
-          animation: 20s slide 1s linear infinite;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-  -webkit-transform-origin: left;
-          transform-origin: left;
+  animation: 20s slide 1s linear infinite;
+  transform: translateX(100%);
+  transform-origin: left;
 }
-
-@-webkit-keyframes slide {
-  to {
-    -webkit-transform: translateX(-150%);
-            transform: translateX(-150%);
-  }
-}
-
 @keyframes slide {
   to {
-    -webkit-transform: translateX(-150%);
-            transform: translateX(-150%);
+    transform: translateX(-150%);
   }
 }
-
+* body main .align-left-with-header {
+  margin: 0rem 26.675rem;
+}
+* body main .espaces-top-banner {
+  background-color: var(--unnamed-color-ffffff);
+  text-align: center;
+}
+* body main .espaces-top-banner .banner-image-container .banner-image {
+  width: 100%;
+}
+* body main .section-espaces-white {
+  background-color: var(--unnamed-color-ffffff);
+  text-align: left;
+}
+* body main .section-espaces-white .espaces-pagination {
+  position: relative;
+  top: 15rem;
+}
+* body main .section-espaces-white .espaces-description-container {
+  display: flex;
+}
+* body main .section-espaces-white .espaces-description-container .button-link {
+  text-decoration: none;
+}
+* body main .section-outils-black {
+  background-color: var(--unnamed-color-000000);
+  text-align: left;
+}
+* body main .section-outils-black .outils-description-container {
+  display: flex;
+}
+* body main .section-outils-black .outils-image-container .outils-image {
+  width: 100%;
+}
+* body main .cta-link {
+  cursor: url("https://www.toutelatele.com/IMG/arton64961.jpg"), auto;
+}
+* body main .cta-content {
+  position: relative;
+}
+* body main .cta-content .cta-text-container {
+  position: absolute;
+  z-index: 1;
+  margin-right: 40%;
+}
+* body main .cta-content .cta-image-container .cta-image {
+  width: 100%;
+}
 * body footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   color: #ffffff;
   border-top: 0.1rem solid #ffffff;
   max-width: 75%;
   margin: auto;
 }
-
 * body footer .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   border-right: 0.1rem solid #ffffff;
   padding: 4rem 5rem 2rem 0rem;
 }
-
 * body footer .contact .titleAddress {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: space-between;
+  flex-direction: column;
   font-size: 1.5rem;
   margin-right: 4rem;
 }
-
 * body footer .contact .titleAddress .address {
   white-space: nowrap;
   font-weight: lighter;
 }
-
 * body footer .contact .titleAddress .address a {
   color: #ffffff;
   text-decoration: none;
 }
-
 * body footer .contact .titleAddress .address a:visited {
   color: #ffffff;
 }
-
 * body footer .contact .titlePole {
   font-size: 2rem;
   max-width: 10.7rem;
   color: #ffffff;
 }
-
 * body footer .contact .phone {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   margin: 1rem 3rem 4rem 0rem;
   min-width: 15rem !important;
   height: 15rem;
   border: 0.1rem solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
 }
-
 * body footer .contact .phone .number {
   font-size: 1.5rem;
   white-space: nowrap;
   font-weight: lighter;
 }
-
 * body footer .contact .phone .number a {
   color: #ffffff;
   text-decoration: none;
 }
-
 * body footer .contact .phone .number a:visited {
   color: #ffffff;
 }
-
 * body footer .copyright {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-basis: 100%;
+  justify-content: space-between;
   padding: 4rem 0rem 2rem 5rem;
   color: #656565;
 }
-
 * body footer .copyright .menuCredits {
   font-size: 1.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 * body footer .copyright .menuCredits h6 {
   font-weight: lighter;
 }
-
 * body footer .copyright .madeBy {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  flex-direction: column;
+  justify-content: end;
   font-size: 1.5rem;
 }
-
 * body footer .copyright .madeBy h6 {
   font-weight: lighter;
 }
-
 * body footer .copyright .madeBy a {
   color: #ffffff;
   text-decoration: none;
   font-weight: lighter;
 }
-
 * body footer .copyright .madeBy a:visited {
   color: #ffffff;
 }
-
 * body footer .copyright ul {
   list-style-type: none;
 }
-
 * body footer .copyright ul li {
   font-size: 2.2rem;
   white-space: nowrap;
   margin-bottom: 2.5rem;
 }
-
 * body footer .copyright ul li a {
   color: #ffffff;
   text-decoration: none;
 }
-
 * body footer .copyright ul li a:visited {
   color: #ffffff;
-}
-* body main .page-espaces-section-white {
-  background-color: var(--unnamed-color-ffffff);
-  width: 100%;
 }
 
 /*# sourceMappingURL=display.css.map */

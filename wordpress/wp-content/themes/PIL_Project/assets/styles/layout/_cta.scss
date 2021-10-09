@@ -1,0 +1,16 @@
+.cta-link{
+    cursor: url("https://www.toutelatele.com/IMG/arton64961.jpg"), auto;
+}
+.cta-content{
+    position:relative;
+    .cta-text-container{
+        position:absolute;
+        z-index:1;
+        margin-right:40%;
+    }
+    .cta-image-container{
+        .cta-image{
+            width:100%;
+        }
+    }
+}

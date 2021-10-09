@@ -46,6 +46,12 @@ wp_enqueue_script('script', get_template_directory_uri() . '/JS/main.js',NULL, m
         'menu_title'    => 'Footer',
         'parent_slug'    => 'theme-general-settings',
     ));
+
+    acf_add_options_sub_page(array(
+        'page_title'     => 'Theme Call-To-Action Settings',
+        'menu_title'    => 'Call-To-Action',
+        'parent_slug'    => 'theme-general-settings',
+    ));
 }
 
 function theme_menus()
@@ -72,9 +78,5 @@ add_filter('upload_mimes', 'add_file_types_to_uploads');
 
 add_action('after_setup_theme', 'theme_functions');
 add_action('wp_enqueue_scripts', 'add_scripts');
-
-@ini_set( 'upload_max_size' , '64M');
-@ini_set( 'post_max_size', '64M');
-@ini_set( 'max_execution_time', '300');
 
 ?>
