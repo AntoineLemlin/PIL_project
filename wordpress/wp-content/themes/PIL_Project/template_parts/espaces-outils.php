@@ -3,20 +3,21 @@ $outils = get_field('outils_de_production_-_champs_a_remplir');
 if ($outils): ?>
 
 <section class="section-outils-black">
-    <div class="outils-pagination">
-        02
-    </div>
-
-    <div class="outils-description-container align-left-with-header">
-        <div class="outils-title">
-            <h1 class="h1-desktop-negative">
-                <?php echo $outils["titre_outils"]; ?>
-            </h1>
+    <div class="outils-introduction">
+        <div class="outils-description-container align-left-with-header">
+            <div class="outils-title">
+                <h1 class="h1-desktop-negative">
+                    <?php echo $outils["titre_outils"]; ?>
+                </h1>
+            </div>
+            <div class="outils-content">
+                <p class="big_p-desktop-negative">
+                    <?php echo $outils["texte_outils"]; ?>
+                </p>
+            </div>
         </div>
-        <div class="outils-content">
-            <p class="big_p-desktop-negative">
-                <?php echo $outils["texte_outils"]; ?>
-            </p>
+        <div class="outils-pagination">
+            02
         </div>
     </div>
 
@@ -41,16 +42,18 @@ if ($outils): ?>
                             .'</h1>
                             <img class="article-title-icon" src="">
                         </div>
-                        <div class="article-text-container">
-                            <h3 class="h3-desktop-negative">'.
-                                $outilTexte
-                            .'</h3>
-                        </div>
-                        <div class="article-description-container">
-                            <h4 class="h4-desktop-negative article-description-title">'.
-                                $outilPetitTitre
-                            .'</h4>
-                        </div>';
+                        <div class="article-content-container">
+                            <div class="article-text-container">
+                                <h3 class="h3-desktop-negative">'.
+                                    $outilTexte
+                                .'</h3>
+                            </div>
+                            <div class="article-description-container">
+                                <div class="article-small-title-container">
+                                    <h4 class="h4-desktop-negative article-small-title">'.
+                                        $outilPetitTitre
+                                    .'</h4>
+                                </div>';
                 if (have_rows('outil_liste_des_equipements')):
                     echo '
                         <div class="big_p-desktop-negative article-description-lists">';
@@ -63,7 +66,7 @@ if ($outils): ?>
                         $equipement6 = get_sub_field('equipement_6');
                         $equipement7 = get_sub_field('equipement_7');
                         echo '
-                            <ul class="article-description-list">
+                            <ul class="article-description-list little_p-desktop-negative">
                                 <li>'.$equipement1.'</li>
                                 <li>'.$equipement2.'</li>
                                 <li>'.$equipement3.'</li>
@@ -73,9 +76,11 @@ if ($outils): ?>
                                 <li>'.$equipement7.'</li>
                             </ul>';
                     endwhile;
-                    echo'</div>';
+                echo'</div>';
                 endif;
-                echo '</article>';
+                            echo '</div>
+                            </div>
+                        </article>';
             endwhile;
         endif;
         ?>

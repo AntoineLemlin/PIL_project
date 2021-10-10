@@ -1,9 +1,12 @@
 .align-left-with-header {
-    margin:0rem 26.675rem ;
+    margin-left: clamp(7.9rem, 25vw, 26.2rem);
 }
+
 .espaces-top-banner {
     background-color: var(--unnamed-color-ffffff);
-    text-align:center;
+    .banner-heading {
+        padding: 26.675rem 0rem 26.675rem 0rem;
+    }
     .banner-image-container {
         .banner-image{
             width:100%;
@@ -14,14 +17,65 @@
 .section-espaces-white {
     background-color: var(--unnamed-color-ffffff);
     text-align:left;
+    position: relative;
     .espaces-pagination {
-        position:relative;
-        top: 15rem;
+        position:absolute;
+        z-index: 0;
+        margin-left:50%;
+        font-style: var(--unnamed-font-style-normal);
+        font-variant: normal;
+        font-weight: var(--unnamed-font-weight-300);
+        font-size: 1000px;
+        line-height: 1200px;
+        letter-spacing: -38px;
+        color: var(--unnamed-color-171717);
+        opacity: 0.05;
     }
     .espaces-description-container{
-        display:flex;
-        .button-link {
-            text-decoration: none;
+        position:relative;
+        z-index:1;
+        display:grid;
+        grid-template-columns: 6fr 4fr 2fr;
+        .espaces-title {
+            padding: 26.675rem 6.675rem 26.675rem 0rem;
+        }
+        .espaces-content {
+            padding: 26.675rem 0rem 26.675rem 0rem;
+            .espaces-content-texte {
+                padding: 1rem 0rem 1rem 0rem;
+            }
+            .espaces-content-button {
+                padding: 1rem 2rem;
+                border: 1px solid var(--unnamed-color-171717);
+                border-radius: 26px;
+                background-color: none;
+                .button-link {
+                    text-decoration: none;
+                    font-style: var(--unnamed-font-style-normal);
+                    font-variant: normal;
+                    font-weight: var(--unnamed-font-weight-medium);
+                    font-size: var(--unnamed-font-size-18);
+                    letter-spacing: var(--unnamed-character-spacing-0);
+                    color: var(--unnamed-color-171717);
+                    text-align: left;
+                    .button-plus {
+                        margin-left: 1rem;
+                    }
+                }
+            }
+            .espaces-content-button:hover {
+                background: var(--unnamed-color-171717) 0% 0% no-repeat padding-box;
+                border: 1px solid var(--unnamed-color-171717);
+                border-radius: 26px;
+                .button-link {
+                    color: var(--unnamed-color-ffffff);
+                    .button-plus {
+                        color: var(--unnamed-color-ffc33b);
+                        animation-name: rotate;
+                        animation-duration: 0.7s;
+                    }
+                }
+            }
         }
     }
 }
@@ -29,17 +83,58 @@
 .section-outils-black {
     background-color: var(--unnamed-color-000000);
     text-align:left;
-    .outils-description-container{
+    .outils-introduction {
+        position: relative;
+        z-index: 0;
         display:flex;
+        align-items: center;
+        .outils-description-container{
+            position:absolute;
+            display:grid;
+            grid-template-columns: 6fr 4fr 2fr;
+            z-index: 2;
+        }
+        .outils-pagination {
+            margin-left:50%;
+            font-style: var(--unnamed-font-style-normal);
+            font-variant: normal;
+            font-weight: var(--unnamed-font-weight-300);
+            font-size: 1000px;
+            line-height: 1200px;
+            letter-spacing: -38px;
+            color: var(--unnamed-color-171717);
+        }
     }
     .outils-image-container {
+        margin-right: clamp(7.9rem, 25vw, 26.2rem);
         .outils-image{
             width:100%;
         }
     }
     .outils-accordeon-container{
-        
+        padding: 10rem 0rem 0rem 0rem;
+        margin-right: clamp(7.9rem, 25vw, 26.2rem);
+        .article-content-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 2rem 0rem 2rem 0rem;
+            .article-description-lists {
+                display:flex;
+                justify-content: space-between;
+            }
+        }
     }
+
+
 }
 
-@import './cta'
+@import './cta';
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+};

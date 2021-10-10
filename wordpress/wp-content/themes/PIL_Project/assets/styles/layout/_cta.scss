@@ -1,8 +1,9 @@
-.cta-link{
-    cursor: url("https://www.toutelatele.com/IMG/arton64961.jpg"), auto;
-}
 .cta-content{
     position:relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: url("../img/cta-cursor.png"), pointer;
     .cta-text-container{
         position:absolute;
         z-index:1;

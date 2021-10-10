@@ -17,10 +17,10 @@ if ($espaces): ?>
         </div>
             
         <div class="espaces-content">
-            <div class="big_p-desktop-positive">
+            <div class="espaces-content-texte big_p-desktop-positive">
                 <?php echo $espaces["texte_droite"]; ?>
             </div>
-            <button type="button" class="button-white to-contact-page">
+            <button type="button" class="espaces-content-button to-contact-page">
                 <?php   
                     $url = $espaces['bouton_droite']['url'];
                     $target = 'target="_blank" rel="noopener"';

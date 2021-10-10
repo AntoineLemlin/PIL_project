@@ -4,7 +4,7 @@ if ($banner): ?>
 
 
 <section class="espaces-top-banner">
-        <h1 class="h1-desktop-positive">
+        <h1 class="banner-heading h1-desktop-positive align-left-with-header">
             <?php echo $banner['titre_banner']; ?>
         </h1>
         <div class="banner-image-container">
